@@ -1,0 +1,1030 @@
+brave	quality_descriptive
+light blue	color_descriptive
+plastic	touch_descriptive
+bue-green	color_descriptive
+strapping	size_descriptive
+bright	quality_descriptive
+bumpy	touch_descriptive
+uneven	touch_descriptive
+cinnabar	color_descriptive
+lukewarm	touch_descriptive
+international orange	color_descriptive
+even-tempered	quality_descriptive
+apprehensive	quality_descriptive
+tactful	quality_descriptive
+quarrelsome	quality_descriptive
+olive	color_descriptive
+pint-size	size_descriptive
+army green	color_descriptive
+petulant	quality_descriptive
+exacting	quality_descriptive
+persian-ect	color_descriptive
+hungry	negative-feeling_descriptive
+quizzical	negative-tone_descriptive
+thistle	color_descriptive
+oversize	size_descriptive
+wide	size_descriptive
+assertive	quality_descriptive
+enthusiastic	quality_descriptive
+mint green	color_descriptive
+vigilant	quality_descriptive
+sloppy	quality_descriptive
+alice blue	color_descriptive
+immodest	quality_descriptive
+bitter	negative-tone_descriptive
+sick	negative-emotion_descriptive
+each	indefinite
+big	size_descriptive
+steady	quality_descriptive
+linen	color_descriptive
+smooth	touch_descriptive
+naughty	quality_descriptive
+spiteful	quality_descriptive
+dependent	quality_descriptive
+purposeful	negative-tone_descriptive
+mulberry	color_descriptive
+impractical	quality_descriptive
+lion-yellow	color_descriptive
+patient	quality_descriptive
+caustic	quality_descriptive
+bright blue	color_descriptive
+grey	color_descriptive
+interesting	quality_descriptive
+coherent	quality_descriptive
+longing	negative-emotion_descriptive
+sophisticated	quality_descriptive
+powder blue	color_descriptive
+ridiculous	quality_descriptive
+persian green	color_descriptive
+moronic	quality_descriptive
+myrtle	color_descriptive
+purple	color_descriptive
+confused	quality_descriptive
+sandy brown	color_descriptive
+fandango -purple	color_descriptive
+taken aback	negative-feeling_descriptive
+red	color_descriptive
+orchid	color_descriptive
+picky	quality_descriptive
+hesitant	quality_descriptive
+discreet	quality_descriptive
+alarmed	negative-tone_descriptive
+reluctant	quality_descriptive
+competent	quality_descriptive
+insensitive	quality_descriptive
+compact	size_descriptive
+pessimistic	negative-feeling_descriptive
+condescending	quality_descriptive
+affectionate	quality_descriptive
+provocative	quality_descriptive
+guilt	negative-emotion_descriptive
+french rose	color_descriptive
+lilac	color_descriptive
+welsh	origin_descriptive
+pumpkin	color_descriptive
+fat	size_descriptive
+scared	negative-feeling_descriptive
+churlish	quality_descriptive
+timid	quality_descriptive
+lean	size_descriptive
+involved	positive-tone_descriptive
+delicate	quality_descriptive
+brass	color_descriptive
+fast	quality_descriptive
+religious	tone_descriptive
+large	size_descriptive
+hope	positive-emotion_descriptive
+hating	negative-tone_descriptive
+hot magenta	color_descriptive
+bistre	color_descriptive
+distant	quality_descriptive
+māori	origin_descriptive
+prejudiced	quality_descriptive
+periwinkle	color_descriptive
+surly	quality_descriptive
+generous	quality_descriptive
+dayak	origin_descriptive
+cautious	quality_descriptive
+respectful	positive-emotion_descriptive
+red-violet	color_descriptive
+tall	size_descriptive
+expansive	size_descriptive
+amiable	quality_descriptive
+peach	color_descriptive
+purple taupe	color_descriptive
+vermilion	color_descriptive
+cubical	shape_descriptive
+great	quality_descriptive
+wooden	touch_descriptive
+obnoxious	negative-tone_descriptive
+enterprising	quality_descriptive
+brown	color_descriptive
+eternal	age_descriptive
+meager	size_descriptive
+resentful	negative-tone_descriptive
+suspicious	quality_descriptive
+tomato	color_descriptive
+papua	origin_descriptive
+medium blue	color_descriptive
+gamboge	color_descriptive
+awesome	quality_descriptive
+prickly	touch_descriptive
+burnt orange	color_descriptive
+social	tone_descriptive
+slushy	touch_descriptive
+watchful	quality_descriptive
+ukrainian	origin_descriptive
+indigo	color_descriptive
+spanish	origin_descriptive
+old lavender	color_descriptive
+alabaster	color_descriptive
+secretive	negative-tone_descriptive
+flabby	quality_descriptive
+sensible	quality_descriptive
+rose	color_descriptive
+unhelpful	quality_descriptive
+electric indigo	color_descriptive
+amusing	quality_descriptive
+lime green	color_descriptive
+gargantuan	size_descriptive
+pastel-ect	color_descriptive
+playful	positive-feeling_descriptive
+broad	size_descriptive
+nosy	quality_descriptive
+cruel	quality_descriptive
+short	size_descriptive
+yellow-green	color_descriptive
+lovable	quality_descriptive
+testy	quality_descriptive
+waxen	touch_descriptive
+iridescent-ect	color_descriptive
+clean	quality_descriptive
+endless	size_descriptive
+hot pink	color_descriptive
+dodge blue	color_descriptive
+steel blue	color_descriptive
+speedy	quality_descriptive
+peaceful	quality_descriptive
+tearful	negative-emotion_descriptive
+greek	origin_descriptive
+faith	positive-emotion_descriptive
+green	color_descriptive
+beautiful	quality_descriptive
+enormous	size_descriptive
+sedate	quality_descriptive
+reserved	quality_descriptive
+morose	quality_descriptive
+drowsy	quality_descriptive
+cyan	color_descriptive
+hollow	shape_descriptive
+cosmic latte	color_descriptive
+square	shape_descriptive
+unimaginative	quality_descriptive
+papuan	origin_descriptive
+caput mortuum	color_descriptive
+short-tempered	quality_descriptive
+polite	quality_descriptive
+devastated	negative-emotion_descriptive
+mustard	color_descriptive
+animated	positive-feeling_descriptive
+envy	negative-emotion_descriptive
+hebrew	origin_descriptive
+sassy	quality_descriptive
+every	indefinite
+sweaty	touch_descriptive
+heliotrope	color_descriptive
+olive drab	color_descriptive
+motivated	quality_descriptive
+gentle	quality_descriptive
+warmhearted	quality_descriptive
+sleepy	quality_descriptive
+kelly green	color_descriptive
+maya blue	color_descriptive
+fastidious	quality_descriptive
+hindi	origin_descriptive
+prussian blue	color_descriptive
+teal	color_descriptive
+maternal	quality_descriptive
+depressed	negative-emotion_descriptive
+one-sided	quality_descriptive
+strong	quality_descriptive
+dark brown	color_descriptive
+restless	quality_descriptive
+cranky	quality_descriptive
+polish	origin_descriptive
+midnight blue	color_descriptive
+tiny	size_descriptive
+viridian	color_descriptive
+coral	color_descriptive
+african	origin_descriptive
+startled	negative-tone_descriptive
+quick	quality_descriptive
+sodden	touch_descriptive
+volcanic	quality_descriptive
+lavender-ect	color_descriptive
+undersized	size_descriptive
+gorgeous	positive-feeling_descriptive
+creme	color_descriptive
+flashy	quality_descriptive
+conceited	quality_descriptive
+measly	size_descriptive
+ecru	color_descriptive
+annual	time_descriptive
+snobby	quality_descriptive
+political	tone_descriptive
+gooey	touch_descriptive
+full-size	size_descriptive
+indian	origin_descriptive
+scottish	origin_descriptive
+embarrassed	negative-feeling_descriptive
+daily	time_descriptive
+greasy	touch_descriptive
+balanced	quality_descriptive
+old gold	color_descriptive
+thoughtless	quality_descriptive
+amber	color_descriptive
+lithe	quality_descriptive
+tender	touch_descriptive
+lavender blue	color_descriptive
+proud	positive-feeling_descriptive
+callous	quality_descriptive
+curved	shape_descriptive
+pastel pink	color_descriptive
+amethyst	color_descriptive
+impulsive	quality_descriptive
+nice	positive-feeling_descriptive
+blunt	quality_descriptive
+yellow	color_descriptive
+plain-speaking	quality_descriptive
+unemotional	quality_descriptive
+tyrain purple	color_descriptive
+pensive	quality_descriptive
+lovely	quality_descriptive
+stinging	touch_descriptive
+hearty	quality_descriptive
+cheerful	quality_descriptive
+cool	touch_descriptive
+balinese	origin_descriptive
+sour	quality_descriptive
+attentive	quality_descriptive
+dark-ect	color_descriptive
+republican	tone_descriptive
+swedish	origin_descriptive
+waiting	quality_descriptive
+hysterical	quality_descriptive
+inconsiderate	quality_descriptive
+grouchy	quality_descriptive
+appreciative	positive-emotion_descriptive
+quiet	quality_descriptive
+han purple	color_descriptive
+electric blue	color_descriptive
+sizable	size_descriptive
+tubby	size_descriptive
+serbo-croatian	origin_descriptive
+thickset	size_descriptive
+terrible	negative-feeling_descriptive
+wisteria	color_descriptive
+denim	color_descriptive
+islamic green	color_descriptive
+ugly	quality_descriptive
+brawny	size_descriptive
+demonic	quality_descriptive
+delightful	quality_descriptive
+tenne	color_descriptive
+lively	quality_descriptive
+hans - blue	color_descriptive
+drunk	quality_descriptive
+unlimited	size_descriptive
+blue-violet	color_descriptive
+american	origin_descriptive
+papaya whip	color_descriptive
+turkic	origin_descriptive
+limitless	size_descriptive
+proficient	quality_descriptive
+gold	color_descriptive
+lusting	positive-emotion_descriptive
+baby	size_descriptive
+sensitive	quality_descriptive
+burnt sienna	color_descriptive
+sentimental	quality_descriptive
+yale blue	color_descriptive
+cosmic	size_descriptive
+shamrock green	color_descriptive
+young	quality_descriptive
+teeny	size_descriptive
+fleshy	size_descriptive
+narrow	size_descriptive
+sticky	touch_descriptive
+mercurial	quality_descriptive
+thirsty	negative-feeling_descriptive
+honeydew- yellow	color_descriptive
+towering	size_descriptive
+medium carmine	color_descriptive
+pale carmine	color_descriptive
+dextrous	quality_descriptive
+good	quality_descriptive
+crass	quality_descriptive
+unaffected	quality_descriptive
+byzantium- purple	color_descriptive
+curious	quality_descriptive
+unwilling	quality_descriptive
+practical	quality_descriptive
+chic	quality_descriptive
+light pink	color_descriptive
+conical	shape_descriptive
+dutch	origin_descriptive
+iridescent pink	color_descriptive
+orange	color_descriptive
+prudent	quality_descriptive
+teeny-weeny	size_descriptive
+incompetent	quality_descriptive
+beneficent	quality_descriptive
+resourceful	quality_descriptive
+liking	positive-emotion_descriptive
+sneering	quality_descriptive
+sweet	quality_descriptive
+several	indefinite
+early	time_descriptive
+deep peach	color_descriptive
+australian	origin_descriptive
+pudgy	size_descriptive
+empowered	positive-feeling_descriptive
+corn	color_descriptive
+joyous	quality_descriptive
+drugged	quality_descriptive
+vast	size_descriptive
+dirty	quality_descriptive
+querulous	quality_descriptive
+unfriendly	quality_descriptive
+uncooperative	quality_descriptive
+well-developed	quality_descriptive
+hefty	size_descriptive
+engrossed	positive-feeling_descriptive
+distrustful	quality_descriptive
+regular	time_descriptive
+corpulent	size_descriptive
+outsized	size_descriptive
+korean	origin_descriptive
+curvy	size_descriptive
+sky blue	color_descriptive
+cubby	size_descriptive
+democratic	tone_descriptive
+artistic	quality_descriptive
+intolerant	quality_descriptive
+weak	quality_descriptive
+historical	age_descriptive
+gloomy	quality_descriptive
+giant	size_descriptive
+rectangular	shape_descriptive
+navajo white	color_descriptive
+beefy	size_descriptive
+sad	negative-tone_descriptive
+amazed	positive-feeling_descriptive
+jovial	quality_descriptive
+outgoing	quality_descriptive
+modest	quality_descriptive
+calculated	negative-tone_descriptive
+pale chestnut	color_descriptive
+fervent	quality_descriptive
+jocular	quality_descriptive
+mild	quality_descriptive
+pink	color_descriptive
+attracted	positive-feeling_descriptive
+cinnamon	color_descriptive
+pine green	color_descriptive
+gritty	touch_descriptive
+slender	size_descriptive
+pink-orange	color_descriptive
+hungarian	origin_descriptive
+dusty	touch_descriptive
+ultramarine	color_descriptive
+huge	size_descriptive
+meticulous	quality_descriptive
+solid	shape_descriptive
+logical	quality_descriptive
+jolly	positive-feeling_descriptive
+buff	color_descriptive
+aqua	color_descriptive
+some	indefinite
+lemon	color_descriptive
+grey-asparagus	color_descriptive
+judgmental	quality_descriptive
+unreliable	quality_descriptive
+well-intentioned	quality_descriptive
+scarlet	color_descriptive
+coral red	color_descriptive
+fortunate	positive-feeling_descriptive
+rolay purple	color_descriptive
+foolish	negative-tone_descriptive
+tranquil	quality_descriptive
+sardonic	negative-tone_descriptive
+demure	quality_descriptive
+industrious	quality_descriptive
+slothful	quality_descriptive
+united nations blue	color_descriptive
+firebrick	color_descriptive
+indian red	color_descriptive
+unsophisticated	quality_descriptive
+romani	origin_descriptive
+resigned	quality_descriptive
+despise	negative-emotion_descriptive
+mini	size_descriptive
+uncertain	quality_descriptive
+friendly	quality_descriptive
+colbalt	color_descriptive
+excited	positive-feeling_descriptive
+navy blue	color_descriptive
+persian blue	color_descriptive
+remorseful	negative-tone_descriptive
+soulful	quality_descriptive
+level-headed	quality_descriptive
+fuchsia	color_descriptive
+burgandy	color_descriptive
+swift	quality_descriptive
+gaulish	origin_descriptive
+annoyed	negative-tone_descriptive
+skimpy	size_descriptive
+italian	origin_descriptive
+lethargic	quality_descriptive
+persian	origin_descriptive
+overcome	positive-emotion_descriptive
+reassuring	quality_descriptive
+vikings	origin_descriptive
+unpopular	quality_descriptive
+cold	touch_descriptive
+zinnwaldite	color_descriptive
+yearly	time_descriptive
+nasty	quality_descriptive
+romanian	origin_descriptive
+narcissistic	negative-tone_descriptive
+candid	quality_descriptive
+stable	quality_descriptive
+rotund	size_descriptive
+orange red	color_descriptive
+sullen	quality_descriptive
+horrified	negative-tone_descriptive
+tea green	color_descriptive
+crimson	color_descriptive
+thick	size_descriptive
+serene	quality_descriptive
+seashell	color_descriptive
+moody	positive-feeling_descriptive
+columbia blue	color_descriptive
+whopping	size_descriptive
+calm	positive-feeling_descriptive
+stoic	quality_descriptive
+finnish	origin_descriptive
+passionate	quality_descriptive
+ferocious	quality_descriptive
+old norse	origin_descriptive
+winter grey	color_descriptive
+cerise	color_descriptive
+orderly	quality_descriptive
+egyptian blue	color_descriptive
+believing	positive-tone_descriptive
+noisy	quality_descriptive
+dramatic	quality_descriptive
+orange peel	color_descriptive
+abnormal	quality_descriptive
+crooked	shape_descriptive
+dutiful	quality_descriptive
+indefatigable	quality_descriptive
+soft	touch_descriptive
+scrawny	size_descriptive
+downy	touch_descriptive
+average	quality_descriptive
+reliable	quality_descriptive
+enlightened	positive-tone_descriptive
+sadistic	negative-feeling_descriptive
+outspoken	quality_descriptive
+apricot	color_descriptive
+self-pity	negative-emotion_descriptive
+free	positive-feeling_descriptive
+childish	quality_descriptive
+staid	quality_descriptive
+paltry	size_descriptive
+slippery	touch_descriptive
+slow	quality_descriptive
+undependable	quality_descriptive
+deep	quality_descriptive
+deferential	quality_descriptive
+black	color_descriptive
+saffron	color_descriptive
+sea green	color_descriptive
+purple-blue	color_descriptive
+vulnerable	quality_descriptive
+moss green	color_descriptive
+quartz	color_descriptive
+salmon	color_descriptive
+dainty	quality_descriptive
+verdigris- green	color_descriptive
+artificial	quality_descriptive
+carrot orange	color_descriptive
+deep fuchsia	color_descriptive
+immense	size_descriptive
+colossal	size_descriptive
+agreeable	quality_descriptive
+excellent	quality_descriptive
+raw umber	color_descriptive
+spirited	quality_descriptive
+naive	quality_descriptive
+distraught	quality_descriptive
+extensive	size_descriptive
+emaciated	size_descriptive
+unguarded	quality_descriptive
+supercilious	quality_descriptive
+mad	negative-emotion_descriptive
+south african	origin_descriptive
+wet	touch_descriptive
+obese	size_descriptive
+pansy- purple	color_descriptive
+anxiety	negative-emotion_descriptive
+wee	size_descriptive
+shy	quality_descriptive
+amazing	quality_descriptive
+independent	quality_descriptive
+chocolate	color_descriptive
+overjoyed	positive-emotion_descriptive
+fluffy	touch_descriptive
+titanic	size_descriptive
+lazy	quality_descriptive
+clever	quality_descriptive
+russet	color_descriptive
+handsome	positive-feeling_descriptive
+disagreeable	quality_descriptive
+pear	color_descriptive
+sami	origin_descriptive
+irritating	quality_descriptive
+careful	quality_descriptive
+normal	quality_descriptive
+stupid	quality_descriptive
+chilly	negative-feeling_descriptive
+same	indefinite
+long	quality_descriptive
+rose taupe	color_descriptive
+striking	quality_descriptive
+slight	quality_descriptive
+tangerine yellow	color_descriptive
+future	time_descriptive
+any	indefinite
+liberal	tone_descriptive
+maroon	color_descriptive
+cuddly	touch_descriptive
+electric green	color_descriptive
+oval	shape_descriptive
+light	tone_descriptive
+underweight	size_descriptive
+azure	color_descriptive
+magnolia	color_descriptive
+atomic tagerine	color_descriptive
+mysterious	negative-tone_descriptive
+grave	quality_descriptive
+eager	quality_descriptive
+dark blue	color_descriptive
+fleet	quality_descriptive
+zaffre-blue	color_descriptive
+tasty	quality_descriptive
+selective yellow	color_descriptive
+reclusive	quality_descriptive
+fuschia pink	color_descriptive
+peach-orange	color_descriptive
+platinum	color_descriptive
+discerning	quality_descriptive
+asparagus	color_descriptive
+royal blue	color_descriptive
+straight	shape_descriptive
+teeny-tiny	size_descriptive
+unbalanced	quality_descriptive
+afrikaans	origin_descriptive
+angelic	quality_descriptive
+icy	touch_descriptive
+ruby	color_descriptive
+evasive	quality_descriptive
+understanding	positive-feeling_descriptive
+courageous	quality_descriptive
+irascible	quality_descriptive
+attractive	positive-feeling_descriptive
+beige	color_descriptive
+dowdy	quality_descriptive
+sapphire	color_descriptive
+lawn green	color_descriptive
+trim	size_descriptive
+all	indefinite
+celadon	color_descriptive
+speed	quality_descriptive
+funny	quality_descriptive
+pale-ect	color_descriptive
+capable	quality_descriptive
+cherry blossom	color_descriptive
+well-respected	quality_descriptive
+khaki	color_descriptive
+spherical	shape_descriptive
+unsure	quality_descriptive
+obliging	quality_descriptive
+emotional	quality_descriptive
+cooperative	quality_descriptive
+alizarin	color_descriptive
+old lace	color_descriptive
+peevish	quality_descriptive
+malachite	color_descriptive
+petite	size_descriptive
+hateful	quality_descriptive
+fabulous	quality_descriptive
+terra cotta	color_descriptive
+hurtful	negative-tone_descriptive
+no	indefinite
+slimy	touch_descriptive
+robin egg blue	color_descriptive
+french	origin_descriptive
+sympathetic	positive-tone_descriptive
+ardent	quality_descriptive
+relieved	positive-feeling_descriptive
+emerald	color_descriptive
+pleasant	quality_descriptive
+ok	positive-feeling_descriptive
+fern green	color_descriptive
+frosty	touch_descriptive
+scandinavian	origin_descriptive
+frustration	negative-emotion_descriptive
+wonderful	quality_descriptive
+carmine	color_descriptive
+cowardly	quality_descriptive
+czech	origin_descriptive
+medium-ect	color_descriptive
+loving	positive-emotion_descriptive
+tactless	quality_descriptive
+monthly	time_descriptive
+powerful	quality_descriptive
+etruscan	origin_descriptive
+melon	color_descriptive
+considerate	quality_descriptive
+russian	origin_descriptive
+thinking	quality_descriptive
+smalt	color_descriptive
+confident	quality_descriptive
+experienced	quality_descriptive
+vegas gold	color_descriptive
+lavender grey	color_descriptive
+small	size_descriptive
+listless	quality_descriptive
+sepia	color_descriptive
+numb	quality_descriptive
+crafty	quality_descriptive
+self-assured	quality_descriptive
+scraggy	size_descriptive
+indolent	quality_descriptive
+irritated	negative-tone_descriptive
+meddlesome	quality_descriptive
+harequin	color_descriptive
+inspiring	quality_descriptive
+respected	quality_descriptive
+hawaiian	origin_descriptive
+portuguese	origin_descriptive
+unthinking	quality_descriptive
+teensy	size_descriptive
+mauve taupe	color_descriptive
+indiscreet	quality_descriptive
+stern	quality_descriptive
+crabby	quality_descriptive
+mammoth	size_descriptive
+idiotic	quality_descriptive
+tamil	origin_descriptive
+irritable	quality_descriptive
+aggravated	negative-emotion_descriptive
+idle	quality_descriptive
+hollywood cerise	color_descriptive
+razzmatazz	color_descriptive
+breezy	touch_descriptive
+inconsistent	quality_descriptive
+below average	quality_descriptive
+illogical	quality_descriptive
+bashful	negative-feeling_descriptive
+old rose	color_descriptive
+defeated	negative-feeling_descriptive
+auburn	color_descriptive
+pocket-size	size_descriptive
+taupe	color_descriptive
+inventive	quality_descriptive
+egotistical	quality_descriptive
+subtle	quality_descriptive
+chinese	origin_descriptive
+quick-tempered	quality_descriptive
+versatile	quality_descriptive
+burnt umber	color_descriptive
+revered	quality_descriptive
+life-size	size_descriptive
+imperturbable	quality_descriptive
+falu red	color_descriptive
+cornflower blue	color_descriptive
+flax	color_descriptive
+musical	quality_descriptive
+long-winded	quality_descriptive
+flat	shape_descriptive
+disgruntled	negative-tone_descriptive
+paternalistic	quality_descriptive
+heavy	size_descriptive
+professional	quality_descriptive
+searing	touch_descriptive
+plucky	quality_descriptive
+phlox- purple	color_descriptive
+stout	size_descriptive
+miserable	quality_descriptive
+deep-ect	color_descriptive
+thoughtful	quality_descriptive
+thin	size_descriptive
+arabic	origin_descriptive
+indonesian	origin_descriptive
+well-behaved	quality_descriptive
+mauve	color_descriptive
+copper	color_descriptive
+futuristic	time_descriptive
+earnest	quality_descriptive
+goldenrod	color_descriptive
+aquamarine	color_descriptive
+awful	quality_descriptive
+snazzy	quality_descriptive
+puce	color_descriptive
+able	quality_descriptive
+shocking pink	color_descriptive
+supportive	positive-emotion_descriptive
+carolina blue	color_descriptive
+various	indefinite
+groggy	quality_descriptive
+mountbatten pink	color_descriptive
+ochre	color_descriptive
+not supportive	negative-tone_descriptive
+deft	quality_descriptive
+well-rounded	quality_descriptive
+jade	color_descriptive
+silver	color_descriptive
+old-fashioned	quality_descriptive
+diligent	quality_descriptive
+psychedelic purple	color_descriptive
+circumspect	quality_descriptive
+rapid	quality_descriptive
+mahogany	color_descriptive
+intent	positive-tone_descriptive
+soulless	quality_descriptive
+skeletal	size_descriptive
+hurt	negative-emotion_descriptive
+blue	color_descriptive
+violet	color_descriptive
+local	quality_descriptive
+smart	quality_descriptive
+intelligent	quality_descriptive
+adventurous	quality_descriptive
+very well	positive-feeling_descriptive
+lavander	color_descriptive
+thrilled	positive-emotion_descriptive
+conscientious	quality_descriptive
+baby blue	color_descriptive
+pride	positive-emotion_descriptive
+infinitesimal	size_descriptive
+lanky	size_descriptive
+touchy	quality_descriptive
+illimitable	size_descriptive
+cordial	quality_descriptive
+cool-headed	quality_descriptive
+serious	quality_descriptive
+portly	size_descriptive
+outraged	negative-tone_descriptive
+composed	quality_descriptive
+cynical	quality_descriptive
+chunky	size_descriptive
+content	quality_descriptive
+misty rose	color_descriptive
+hot	negative-feeling_descriptive
+brilliant	quality_descriptive
+minuscule	size_descriptive
+elastic	touch_descriptive
+sumatran	origin_descriptive
+guarded	quality_descriptive
+shrewd	quality_descriptive
+hypercritical	quality_descriptive
+zealous	quality_descriptive
+frank	quality_descriptive
+scanty	size_descriptive
+golden yellow	color_descriptive
+elfin	size_descriptive
+critical	quality_descriptive
+chestnut	color_descriptive
+tagalog	origin_descriptive
+peach-yellow	color_descriptive
+punctual	quality_descriptive
+copper rose	color_descriptive
+magic mint	color_descriptive
+happy	positive-emotion_descriptive
+civil	quality_descriptive
+hard	touch_descriptive
+puny	size_descriptive
+easy-going	quality_descriptive
+direct	quality_descriptive
+dark coral	color_descriptive
+plump	size_descriptive
+brillian rose	color_descriptive
+inexperienced	quality_descriptive
+slick	touch_descriptive
+federal -blue	color_descriptive
+careless	quality_descriptive
+lucky	positive-feeling_descriptive
+norwegian	origin_descriptive
+keen	quality_descriptive
+impressive	quality_descriptive
+pale blue	color_descriptive
+fear	negative-emotion_descriptive
+light green	color_descriptive
+squat	size_descriptive
+bright green	color_descriptive
+camouflage green	color_descriptive
+office green	color_descriptive
+round	shape_descriptive
+irish	origin_descriptive
+loose	touch_descriptive
+conservative	tone_descriptive
+absent-minded	quality_descriptive
+fussy	quality_descriptive
+boisterous	quality_descriptive
+leery	quality_descriptive
+white	color_descriptive
+japanese	origin_descriptive
+venal	quality_descriptive
+iridescent blue	color_descriptive
+willing	quality_descriptive
+cardinal red	color_descriptive
+helpful	quality_descriptive
+charming	quality_descriptive
+unpleasant	quality_descriptive
+passive	quality_descriptive
+irregular	time_descriptive
+clumsy	quality_descriptive
+natural	quality_descriptive
+devoted	quality_descriptive
+festive	positive-feeling_descriptive
+cantankerous	quality_descriptive
+slovak	origin_descriptive
+grumpy	negative-emotion_descriptive
+well	positive-feeling_descriptive
+optimistic	positive-feeling_descriptive
+bright-ect	color_descriptive
+realistic	quality_descriptive
+dumb	negative-feeling_descriptive
+hunter -yellow	color_descriptive
+tolerant	quality_descriptive
+apathetic	quality_descriptive
+persimmon	color_descriptive
+ivory	color_descriptive
+plain	quality_descriptive
+rust	color_descriptive
+incisive	quality_descriptive
+overwhelmed	negative-emotion_descriptive
+dry	touch_descriptive
+safety orange	color_descriptive
+dull	quality_descriptive
+tepid	touch_descriptive
+sincere	quality_descriptive
+javanese	origin_descriptive
+lame	quality_descriptive
+glutinous	quality_descriptive
+spring green	color_descriptive
+joyful	positive-emotion_descriptive
+yiddish	origin_descriptive
+gaunt	size_descriptive
+mature	quality_descriptive
+rose madder	color_descriptive
+microscopic	size_descriptive
+saucy	quality_descriptive
+certain	indefinite
+denmark	origin_descriptive
+deep lilac	color_descriptive
+tight	touch_descriptive
+secular	tone_descriptive
+brief	quality_descriptive
+impetuous	quality_descriptive
+international klein boue	color_descriptive
+urdu	origin_descriptive
+selfish	quality_descriptive
+shaggy	touch_descriptive
+sober	quality_descriptive
+tea rose	color_descriptive
+slovenly	quality_descriptive
+tangerine	color_descriptive
+hulking	size_descriptive
+malay	origin_descriptive
+angry	negative-tone_descriptive
+energetic	quality_descriptive
+childlike	quality_descriptive
+sarcastic	negative-tone_descriptive
+dank	touch_descriptive
+filthy	quality_descriptive
+open	positive-feeling_descriptive
+slim	size_descriptive
+ancient	age_descriptive
+damp	touch_descriptive
+agile	quality_descriptive
+unstable	quality_descriptive
+alert	quality_descriptive
+guilty	negative-tone_descriptive
+sturdy	size_descriptive
+imaginative	quality_descriptive
+ambitious	quality_descriptive
+plum	color_descriptive
+spring bud	color_descriptive
+golden brown	color_descriptive
+impatient	quality_descriptive
+turquoise	color_descriptive
+tired	negative-feeling_descriptive
+xanthic	color_descriptive
+dreary	quality_descriptive
+evil	negative-feeling_descriptive
+tan	color_descriptive
+shame	negative-emotion_descriptive
+cerulean blue	color_descriptive
+persevering	quality_descriptive
+eggplant	color_descriptive
+school bus yellow	color_descriptive
+kind	quality_descriptive
+triangular	shape_descriptive
+fiery	quality_descriptive
+amaranth	color_descriptive
+chartreuse	color_descriptive
+epic	size_descriptive
+overweight	size_descriptive
+olivine	color_descriptive
+hot-headed	quality_descriptive
+gigantic	size_descriptive
+boundless	size_descriptive
+responsible	quality_descriptive
+rich carmine	color_descriptive
+jealousy	negative-emotion_descriptive
+sulky	quality_descriptive
+ostentatious	quality_descriptive
+lemon chiffon	color_descriptive
+magenta	color_descriptive
+oxford blue	color_descriptive
+paternal	quality_descriptive
+blood red	color_descriptive
+old	quality_descriptive
+methodical	quality_descriptive
+sundanese	origin_descriptive
+little	size_descriptive
+lavender blush	color_descriptive
+trifling	size_descriptive
+dreadful	negative-feeling_descriptive
+silly	negative-feeling_descriptive
+grand	size_descriptive
+positive	quality_descriptive
+impressionable	quality_descriptive
+bright pink	color_descriptive
+nervous	negative-feeling_descriptive
+immeasurable	size_descriptive
+carnation pink	color_descriptive
+persnickety	quality_descriptive
+rough	touch_descriptive
+sangria	color_descriptive
+disbelieving	negative-tone_descriptive
+unmotivated	quality_descriptive
+silky	touch_descriptive
+excitable	quality_descriptive
+forest green	color_descriptive
+somber	quality_descriptive
+popular	quality_descriptive
+ice white	color_descriptive
+talented	quality_descriptive
+cylindrical	shape_descriptive
+efficient	quality_descriptive
+other	indefinite
+warm	touch_descriptive
+bony	size_descriptive
+analytical	quality_descriptive
+bondi blue	color_descriptive
+pretty	quality_descriptive
+electric-ect	color_descriptive
+slate grey	color_descriptive
+flame	color_descriptive
+miniature	size_descriptive
+minute	size_descriptive
+inactive	quality_descriptive
+wary	quality_descriptive
+bulky	size_descriptive
+above average	quality_descriptive
+yellow-red	color_descriptive
+mean	quality_descriptive
+immature	quality_descriptive
+melted	touch_descriptive
+skinny	size_descriptive
+wheat	color_descriptive
+sharp	touch_descriptive
+love-lorn	quality_descriptive
+steep	shape_descriptive
+light-ect	color_descriptive
+disruptive	quality_descriptive
+bronze	color_descriptive
+stocky	size_descriptive
+superficial	quality_descriptive
+massive	size_descriptive
+decisive	quality_descriptive
+latin	origin_descriptive
+flaky	quality_descriptive
+danish	origin_descriptive
+negative	quality_descriptive
+pastel green	color_descriptive

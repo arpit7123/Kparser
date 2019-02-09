@@ -1,0 +1,51 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden
+}
+
+.main-svg {
+  position: relative;
+  top: 30%;
+  left: 5;
+  height: 1000px;
+  width: 100%;
+  border: 1px solid #999;
+}
+
+.legend-svg {
+  position: relative;
+  /*top: 150px;*/
+  /*left: 0;*/
+  height: 50px;
+  width: 600px;
+  width: 50%;
+  /* border: 1px solid #999; */
+}
+
+textarea {
+  border: 3px solid #999999;
+  width: 95%;
+  margin: 5px 0;
+  padding: 5px;
+  color: #280000 ;
+}
+
+/* .legend {
+  stroke-width: 3px;
+  stroke: #333;
+  fill: none;
+  opacity: 0.5;
+} */
+
+/*.legend-person  > .label > rect {*/
+/*fill: #b997ff;*/
+/*}*/
+
+/*.legend-date  > .label > rect {*/
+/*fill: #ffae6a;*/
+/*}*/
+
+/*.legend-organization > .label > rect {*/
+/*fill: #96c2ff;*/
+/*}*/

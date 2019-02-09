@@ -1,0 +1,130 @@
+header {
+	margin-bottom: 30px;
+	color: black;
+}
+
+.selected {
+	color: blue;
+	font-style: italic;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.deselected {
+	color: black;
+	font-style: plain;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.main-svg {
+	position: relative;
+	height: 1000px;
+	width: 100%;
+	border: 1px solid #999;
+}
+
+.main-svg1 {
+	position: relative;
+	height: 400px;
+	width: 100%;
+	border: 1px solid #999;
+}
+
+.label.event {
+	background: #D2B48C;
+	color: black;
+}
+
+.label.entity {
+	background: cyan;
+	color: black;
+}
+
+.label.class {
+	background-color: yellow;
+	color: black;
+}
+
+.label.semRole {
+	background-color: #FFEFD5;
+	color: black;
+}
+
+.label.coref {
+	background-color: #C0C0C0;
+	color: black;
+}
+
+.label.examples {
+	background: #4b7ba9;
+	color: white;
+	font-style: plain;
+	font-size: 24px;
+}
+
+.listItem {
+	color: black;
+	font-style: plain;
+	font-size: 16px;
+}
+
+.container.container_new{
+	width: 100%;
+}
+
+.container.container_api{
+	width: 80%;
+}
+
+/* svg container fullscreen icon */
+.main-svg1-button .main-svg1-fullscreen {
+	width: 42px;
+	height: 42px;
+	position: absolute;
+	right: 16px;
+	top: 153px;
+	overflow: hidden;
+	border: none;
+	background: url(./img/fullscreen.svg) no-repeat center center;
+	text-indent: 200%;
+	outline: none;
+	z-index: 100;
+}
+
+.expandedTextArea {
+    height: 2em;
+    width: 50%;
+    padding: 3px;
+}
+
+.collapsedTextArea {
+    height: 0em;
+    width: 50%;
+    padding: 3px;
+}
+
+img{
+	width:100%;
+}
+
+img.imgborder {
+    border: 2px solid #eee;
+    border-radius: 0.5em;
+}
+.affix {
+    position: fixed;
+}
+
+div {
+    font-size: 12pt;
+}
+
+table, th, td {
+    margin-top: 30px;
+}
+
+table.table1{
+    border: 0px solid black;
+    margin-top: 100px;
+}

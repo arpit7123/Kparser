@@ -1,0 +1,777 @@
+[
+  {
+    "type": "nsubj-agent1",
+    "input": "Clinton defeated Dole.",
+    "output": [
+      "has(defeated_2,agent,Clinton_1).",
+      "has(defeated_2,recipient,Dole_3).",
+      "has(Clinton_1,instance_of,Clinton).",
+      "has(Clinton,is_subclass_of,person).",
+      "has(defeated_2,instance_of,defeat).",
+      "has(defeat,is_subclass_of,competition).",
+      "has(Dole_3,instance_of,Dole).",
+      "has(Dole,is_subclass_of,person).",
+      "has(Clinton_1,semantic_role,:entity victorious).",
+      "has(Dole_3,semantic_role,:entity defeated)."
+    ]
+  },
+  {
+    "type": "dobj-recipient2",
+    "input": "They win the lottery.",
+    "output": [
+      "has(win_2,agent,They_1).",
+      "has(win_2,recipient,lottery_4).",
+      "has(win_2,instance_of,win).",
+      "has(win,is_subclass_of,competition).",
+      "has(They_1,instance_of,They).",
+      "has(They,is_subclass_of,group).",
+      "has(lottery_4,instance_of,lottery).",
+      "has(lottery,is_subclass_of,event).",
+      "has(They_1,semantic_role,:winner).",
+      "has(lottery_4,semantic_role,:thing won (contest or prize))."
+    ]
+  },
+  {
+    "type": "prep_about-object1",
+    "input": "Tom asked about the car.",
+    "output": [
+      "has(asked_2,object,car_5).",
+      "has(asked_2,agent,Tom_1).",
+      "has(car_5,instance_of,car).",
+      "has(car,is_subclass_of,artifact).",
+      "has(asked_2,instance_of,ask).",
+      "has(ask,is_subclass_of,communication).",
+      "has(Tom_1,instance_of,Tom).",
+      "has(Tom,is_subclass_of,person).",
+      "has(Tom_1,semantic_role,:asker)."
+    ]
+  },
+  {
+    "type": "prep_against-object2",
+    "input": "Tom leaned against the car.",
+    "output": [
+      "has(leaned_2,agent,Tom_1).",
+      "has(leaned_2,object,car_5).",
+      "has(leaned_2,instance_of,lean).",
+      "has(lean,is_subclass_of,motion).",
+      "has(car_5,instance_of,car).",
+      "has(car,is_subclass_of,artifact).",
+      "has(Tom_1,instance_of,Tom).",
+      "has(Tom,is_subclass_of,person).",
+      "has(Tom_1,semantic_role,:causer of leaning)."
+    ]
+  },
+  {
+    "type": "prep_through-object3",
+    "input": "Tom drove through the tunnel.",
+    "output": [
+      "has(drove_2,object,tunnel_5).",
+      "has(drove_2,agent,Tom_1).",
+      "has(tunnel_5,instance_of,tunnel).",
+      "has(tunnel,is_subclass_of,artifact).",
+      "has(drove_2,instance_of,drive).",
+      "has(drive,is_subclass_of,motion).",
+      "has(Tom_1,instance_of,Tom).",
+      "has(Tom,is_subclass_of,person).",
+      "has(Tom_1,semantic_role,:driver)."
+    ]
+  },
+  {
+    "type": "prep_on-object4",
+    "input": "Tom drew a painting on the wall.",
+    "output": [
+      "has(drew_2,agent,Tom_1).",
+      "has(drew_2,recipient,painting_4).",
+      "has(drew_2,object,wall_7).",
+      "has(drew_2,instance_of,draw).",
+      "has(draw,is_subclass_of,contact).",
+      "has(painting_4,instance_of,painting).",
+      "has(painting,is_subclass_of,artifact).",
+      "has(wall_7,instance_of,wall).",
+      "has(wall,is_subclass_of,artifact).",
+      "has(Tom_1,instance_of,Tom).",
+      "has(Tom,is_subclass_of,person).",
+      "has(Tom_1,semantic_role,:artist).",
+      "has(painting_4,semantic_role,:art)."
+    ]
+  },
+  {
+    "type": "prep_out_of-object5",
+    "input": "She got out of the car.",
+    "output": [
+      "has(got_2,object,car_6).",
+      "has(got_2,agent,She_1).",
+      "has(got_2,instance_of,get).",
+      "has(get,is_subclass_of,possession).",
+      "has(She_1,instance_of,She).",
+      "has(She,is_subclass_of,person).",
+      "has(car_6,instance_of,car).",
+      "has(car,is_subclass_of,artifact).",
+      "has(She_1,semantic_role,:receiver)."
+    ]
+  },
+  {
+    "type": "prep_of-object6",
+    "input": "She died of cancer.",
+    "output": [
+      "has(died_2,object,cancer_4).",
+      "has(died_2,agent,She_1).",
+      "has(She_1,instance_of,She).",
+      "has(She,is_subclass_of,person).",
+      "has(cancer_4,instance_of,cancer).",
+      "has(cancer,is_subclass_of,state).",
+      "has(died_2,instance_of,die).",
+      "has(die,is_subclass_of,change)."
+    ]
+  },
+  {
+    "type": "prep_with-raw_material1",
+    "input": "Tom killed John with a knife.",
+    "output": [
+      "has(killed_2,agent,Tom_1).",
+      "has(killed_2,raw_material,knife_6).",
+      "has(killed_2,recipient,John_3).",
+      "has(John_3,instance_of,John).",
+      "has(John,is_subclass_of,person).",
+      "has(knife_6,instance_of,knife).",
+      "has(knife,is_subclass_of,artifact).",
+      "has(killed_2,instance_of,kill).",
+      "has(kill,is_subclass_of,contact).",
+      "has(Tom_1,instance_of,Tom).",
+      "has(Tom,is_subclass_of,person).",
+      "has(Tom_1,semantic_role,:killer).",
+      "has(John_3,semantic_role,:corpse)."
+    ]
+  },
+  {
+    "type": "prep_with-accompanier1",
+    "input": "Tom went to market with Jim.",
+    "output": [
+      "has(went_2,agent,Tom_1).",
+      "has(went_2,accompanier,Jim_6).",
+      "has(went_2,destination,market_4).",
+      "has(went_2,instance_of,go).",
+      "has(go,is_subclass_of,motion).",
+      "has(market_4,instance_of,market).",
+      "has(market,is_subclass_of,act).",
+      "has(Jim_6,instance_of,Jim).",
+      "has(Jim,is_subclass_of,person).",
+      "has(Tom_1,instance_of,Tom).",
+      "has(Tom,is_subclass_of,person)."
+    ]
+  },
+  {
+    "type": "prep_into-destination2",
+    "input": "John fell into a well.",
+    "output": [
+      "has(fell_2,destination,well_5).",
+      "has(fell_2,agent,John_1).",
+      "has(well_5,instance_of,well).",
+      "has(well,is_subclass_of,all).",
+      "has(John_1,instance_of,John).",
+      "has(John,is_subclass_of,person).",
+      "has(fell_2,instance_of,fall).",
+      "has(fall,is_subclass_of,motion)."
+    ]
+  },
+  {
+    "type": "prep_to-destination3",
+    "input": "John walked to the jungle.",
+    "output": [
+      "has(walked_2,agent,John_1).",
+      "has(walked_2,destination,jungle_5).",
+      "has(walked_2,instance_of,walk).",
+      "has(walk,is_subclass_of,motion).",
+      "has(John_1,instance_of,John).",
+      "has(John,is_subclass_of,person).",
+      "has(jungle_5,instance_of,jungle).",
+      "has(jungle,is_subclass_of,location).",
+      "has(John_1,semantic_role,:walker)."
+    ]
+  },
+  {
+    "type": "prep_aboard-destination4",
+    "input": "We went aboard the boat.",
+    "output": [
+      "has(went_2,agent,We_1).",
+      "has(went_2,destination,boat_5).",
+      "has(went_2,instance_of,go).",
+      "has(go,is_subclass_of,motion).",
+      "has(boat_5,instance_of,boat).",
+      "has(boat,is_subclass_of,artifact).",
+      "has(We_1,instance_of,We).",
+      "has(We,is_subclass_of,group)."
+    ]
+  },
+  {
+    "type": "prep_at-location2",
+    "input": "The event occurred at Tom’s place.",
+    "output": [
+      "has(place_6,complement_phrase,Toms_5).",
+      "has(occurred_3,agent,event_2).",
+      "has(occurred_3,site,place_6).",
+      "has(event_2,instance_of,event).",
+      "has(event,is_subclass_of,Tops).",
+      "has(occurred_3,instance_of,occur).",
+      "has(occur,is_subclass_of,change).",
+      "has(Toms_5,instance_of,Tom).",
+      "has(Tom,is_subclass_of,person).",
+      "has(place_6,instance_of,place).",
+      "has(place,is_subclass_of,cognition)."
+    ]
+  },
+  {
+    "type": "poss-is_possessed_by1",
+    "input": "their offices.",
+    "output": [
+      "has(offices_2,is_possessed_by,their_1).",
+      "has(their_1,instance_of,their).",
+      "has(their,is_subclass_of,group).",
+      "has(offices_2,instance_of,office).",
+      "has(office,is_subclass_of,artifact)."
+    ]
+  },
+  {
+    "type": "prep_of-is_possessed_by3",
+    "input": "Tom took the pen of Jim.",
+    "output": [
+      "has(pen_4,is_possessed_by,Jim_6).",
+      "has(took_2,agent,Tom_1).",
+      "has(took_2,recipient,pen_4).",
+      "has(took_2,instance_of,take).",
+      "has(take,is_subclass_of,social).",
+      "has(Tom_1,instance_of,Tom).",
+      "has(Tom,is_subclass_of,person).",
+      "has(Jim_6,instance_of,Jim).",
+      "has(Jim,is_subclass_of,person).",
+      "has(pen_4,instance_of,pen).",
+      "has(pen,is_subclass_of,artifact)."
+    ]
+  },
+  {
+    "type": "nsubjpass-recipient5",
+    "input": "Dole was defeated by Clinton.",
+    "output": [
+      "has(defeated_3,recipient,Dole_1).",
+      "has(defeated_3,agent,Clinton_5).",
+      "has(Dole_1,instance_of,Dole).",
+      "has(Dole,is_subclass_of,person).",
+      "has(defeated_3,instance_of,defeat).",
+      "has(defeat,is_subclass_of,competition).",
+      "has(Clinton_5,instance_of,Clinton).",
+      "has(Clinton,is_subclass_of,person).",
+      "has(Dole_1,semantic_role,:entity defeated).",
+      "has(Clinton_5,semantic_role,:entity victorious)."
+    ]
+  },
+  {
+    "type": "prep_from-origin1",
+    "input": "John took a flight from Phoenix to Denver.",
+    "output": [
+      "has(took_2,origin,Phoenix_6).",
+      "has(took_2,agent,John_1).",
+      "has(took_2,destination,Denver_8).",
+      "has(took_2,recipient,flight_4).",
+      "has(Denver_8,instance_of,Denver).",
+      "has(Denver,is_subclass_of,location).",
+      "has(John_1,instance_of,John).",
+      "has(John,is_subclass_of,person).",
+      "has(took_2,instance_of,take).",
+      "has(take,is_subclass_of,social).",
+      "has(Phoenix_6,instance_of,Phoenix).",
+      "has(Phoenix,is_subclass_of,location).",
+      "has(flight_4,instance_of,flight).",
+      "has(flight,is_subclass_of,group)."
+    ]
+  },
+  {
+    "type": "instance_of1-superclass1",
+    "input": "John loves Mia.",
+    "output": [
+      "has(loves_2,agent,John_1).",
+      "has(loves_2,recipient,Mia_3).",
+      "has(John_1,instance_of,John).",
+      "has(John,is_subclass_of,person).",
+      "has(Mia_3,instance_of,Mia).",
+      "has(Mia,is_subclass_of,person).",
+      "has(loves_2,instance_of,love).",
+      "has(love,is_subclass_of,emotion).",
+      "has(John_1,semantic_role,:lover).",
+      "has(Mia_3,semantic_role,:loved)."
+    ]
+  },
+  {
+    "type": "prep_in-destination1",
+    "input": "John was killed in the attic.",
+    "output": [
+      "has(killed_3,recipient,John_1).",
+      "has(killed_3,destination/time_at,attic_6).",
+      "has(attic_6,instance_of,attic).",
+      "has(attic,is_subclass_of,artifact).",
+      "has(John_1,instance_of,John).",
+      "has(John,is_subclass_of,person).",
+      "has(killed_3,instance_of,kill).",
+      "has(kill,is_subclass_of,contact).",
+      "has(John_1,semantic_role,:corpse)."
+    ]
+  },
+  {
+    "type": "neg-negative2",
+    "input": "Bill does not drive.",
+    "output": [
+      "has(drive_4,negative,not_3).",
+      "has(drive_4,agent,Bill_1).",
+      "has(drive_4,instance_of,drive).",
+      "has(drive,is_subclass_of,motion).",
+      "has(not_3,instance_of,not).",
+      "has(not,is_subclass_of,all).",
+      "has(Bill_1,instance_of,Bill).",
+      "has(Bill,is_subclass_of,person).",
+      "has(Bill_1,semantic_role,:driver)."
+    ]
+  },
+  {
+    "type": "stop-next_event3",
+    "input": "John asked a question. Tom answered it.",
+    "output": [
+      "has(asked_2,agent,John_1).",
+      "has(answered_7,agent,Tom_6).",
+      "has(asked_2,recipient,question_4).",
+      "has(answered_7,recipient,it_8).",
+      "has(asked_2,next_event,answered_7).",
+      "has(it_8,instance_of,it).",
+      "has(it,is_subclass_of,object).",
+      "has(Tom_6,instance_of,Tom).",
+      "has(Tom,is_subclass_of,person).",
+      "has(John_1,instance_of,John).",
+      "has(John,is_subclass_of,person).",
+      "has(asked_2,instance_of,ask).",
+      "has(ask,is_subclass_of,communication).",
+      "has(question_4,instance_of,question).",
+      "has(question,is_subclass_of,communication).",
+      "has(answered_7,instance_of,answer).",
+      "has(answer,is_subclass_of,communication).",
+      "has(John_1,semantic_role,:asker).",
+      "has(Tom_6,semantic_role,:replier).",
+      "has(question_4,semantic_role,:question).",
+      "has(it_8,semantic_role,:answer)."
+    ]
+  },
+  {
+    "type": "num-size1",
+    "input": "Sam ate 3 sheep.",
+    "output": [
+      "has(sheep_4,size,3_3).",
+      "has(ate_2,agent,Sam_1).",
+      "has(ate_2,recipient,sheep_4).",
+      "has(sheep_4,instance_of,sheep).",
+      "has(sheep,is_subclass_of,animal).",
+      "has(ate_2,instance_of,eat).",
+      "has(eat,is_subclass_of,consumption).",
+      "has(Sam_1,instance_of,Sam).",
+      "has(Sam,is_subclass_of,person).",
+      "has(3_3,instance_of,3).",
+      "has(Sam_1,semantic_role,:consumer, eater).",
+      "has(sheep_4,semantic_role,:meal)."
+    ]
+  },
+  {
+    "type": "xsubj-agent3",
+    "input": "Tom likes to eat fish.",
+    "output": [
+      "has(likes_2,objective,eat_4).",
+      "has(likes_2,agent,Tom_1).",
+      "has(eat_4,agent,Tom_1).",
+      "has(eat_4,recipient,fish_5).",
+      "has(fish_5,instance_of,fish).",
+      "has(fish,is_subclass_of,animal).",
+      "has(eat_4,instance_of,eat).",
+      "has(eat,is_subclass_of,consumption).",
+      "has(likes_2,instance_of,like).",
+      "has(like,is_subclass_of,emotion).",
+      "has(Tom_1,instance_of,Tom).",
+      "has(Tom,is_subclass_of,person).",
+      "has(Tom_1,semantic_role,:liker).",
+      "has(Tom_1,semantic_role,:consumer, eater).",
+      "has(fish_5,semantic_role,:meal)."
+    ]
+  },
+  {
+    "type": "prt-location1",
+    "input": "They shut down the station.",
+    "output": [
+      "has(shut_2,location,down_3).",
+      "has(shut_2,agent,They_1).",
+      "has(shut_2,recipient,station_5).",
+      "has(shut_2,instance_of,shut).",
+      "has(shut,is_subclass_of,contact).",
+      "has(station_5,instance_of,station).",
+      "has(station,is_subclass_of,artifact).",
+      "has(down_3,instance_of,down).",
+      "has(down,is_subclass_of,all).",
+      "has(They_1,instance_of,They).",
+      "has(They,is_subclass_of,group).",
+      "has(They_1,semantic_role,:person doing the closing).",
+      "has(station_5,semantic_role,:thing closing)."
+    ]
+  },
+  {
+    "type": "prep_for-objective3",
+    "input": "She looked a place for hanging the painting.",
+    "output": [
+      "has(looked_2,agent,She_1).",
+      "has(looked_2,objective,hanging_6).",
+      "has(looked_2,recipient,place_4).",
+      "has(hanging_6,recipient,painting_8).",
+      "has(hanging_6,instance_of,hang).",
+      "has(hang,is_subclass_of,contact).",
+      "has(painting_8,instance_of,painting).",
+      "has(painting,is_subclass_of,act).",
+      "has(looked_2,instance_of,look).",
+      "has(look,is_subclass_of,perception).",
+      "has(place_4,instance_of,place).",
+      "has(place,is_subclass_of,act).",
+      "has(She_1,instance_of,She).",
+      "has(She,is_subclass_of,person).",
+      "has(She_1,semantic_role,:looker).",
+      "has(place_4,semantic_role,:thing looked at or for or on).",
+      "has(painting_8,semantic_role,:thing suspended)."
+    ]
+  },
+  {
+    "type": "xcomp-objective2",
+    "input": "I am ready to leave.",
+    "output": [
+      "has(I_1,trait,ready_3).",
+      "has(leave_5,agent,I_1).",
+      "has(leave_5,instance_of,leave).",
+      "has(leave,is_subclass_of,motion).",
+      "has(ready_3,instance_of,ready).",
+      "has(ready,is_subclass_of,all).",
+      "has(I_1,instance_of,I).",
+      "has(I,is_subclass_of,person).",
+      "has(I_1,semantic_role,:entity leaving)."
+    ]
+  },
+  {
+    "type": "dobj-recipient1",
+    "input": "She gave me a raise.",
+    "output": [
+      "has(gave_2,agent,She_1).",
+      "has(gave_2,recipient,raise_5).",
+      "has(gave_2,recipient,me_3).",
+      "has(gave_2,instance_of,give).",
+      "has(give,is_subclass_of,possession).",
+      "has(raise_5,instance_of,raise).",
+      "has(raise,is_subclass_of,attribute).",
+      "has(me_3,instance_of,me).",
+      "has(me,is_subclass_of,person).",
+      "has(She_1,instance_of,She).",
+      "has(She,is_subclass_of,person).",
+      "has(She_1,semantic_role,:giver).",
+      "has(raise_5,semantic_role,:thing given).",
+      "has(me_3,semantic_role,:thing given).",
+    ]
+  },
+  {
+     "type": "agent-agent4",
+    "input": "The man has been killed by the police.",
+    "output": [
+      "has(killed_5,recipient,man_2).",
+      "has(killed_5,agent,police_8).",
+      "has(man_2,instance_of,man).",
+      "has(man,is_subclass_of,animal).",
+      "has(police_8,instance_of,police).",
+      "has(police,is_subclass_of,group).",
+      "has(killed_5,instance_of,kill).",
+      "has(kill,is_subclass_of,contact).",
+      "has(man_2,semantic_role,:corpse).",
+      "has(police_8,semantic_role,:killer)."
+    ]
+  },
+  {
+    "type": "cop-trait1",
+    "input": "Bill is big.",
+    "output": [
+      "has(Bill_1,trait,big_3).",
+      "has(big_3,instance_of,big).",
+      "has(big,is_subclass_of,all).",
+      "has(Bill_1,instance_of,Bill).",
+      "has(Bill,is_subclass_of,person)."
+    ]
+  },
+  {
+    "type": "appos-information_content1",
+    "input": "Sam , my brother , arrived.",
+    "output": [
+      "has(Sam_1,information_content,brother_4).",
+      "has(arrived_6,agent,Sam_1).",
+      "has(brother_4,is_related_to,my_3).",
+      "has(arrived_6,instance_of,arrive).",
+      "has(arrive,is_subclass_of,motion).",
+      "has(brother_4,instance_of,brother).",
+      "has(brother,is_subclass_of,person).",
+      "has(my_3,instance_of,my).",
+      "has(my,is_subclass_of,person).",
+      "has(Sam_1,instance_of,Sam).",
+      "has(Sam,is_subclass_of,person)."
+    ]
+  },
+  {
+    "type": "poss-related_to1",
+    "input": "Bill loves his wife.",
+    "output": [
+      "has(loves_2,agent,Bill_1).",
+      "has(loves_2,recipient,wife_4).",
+      "has(wife_4,is_related_to,his_3).",
+      "has(his_3,instance_of,his).",
+      "has(his,is_subclass_of,person).",
+      "has(wife_4,instance_of,wife).",
+      "has(wife,is_subclass_of,person).",
+      "has(loves_2,instance_of,love).",
+      "has(love,is_subclass_of,emotion).",
+      "has(Bill_1,instance_of,Bill).",
+      "has(Bill,is_subclass_of,person).",
+      "has(Bill_1,semantic_role,:lover).",
+      "has(wife_4,semantic_role,:loved)."
+    ]
+  },
+  {
+    "type": "prototype_of1",
+    "input": "Every boxer walks.",
+    "output": [
+      "has(walks_3,agent,boxer_2).",
+      "has(walks_3,instance_of,walk).",
+      "has(walk,is_subclass_of,act).",
+      "has(boxer_2,prototype_of,boxer).",
+      "has(boxer,is_subclass_of,person).",
+      "has(boxer_2,semantic_role,:walker)."
+    ]
+  },
+  {
+    "type": "tmod-time_at1",
+    "input": "Last night, I swam in the pool.",
+    "output": [
+      "has(swam_5,agent,I_4).",
+      "has(swam_5,destination/time_at,pool_8).",
+      "has(night_2,trait,Last_1).",
+      "has(swam_5,time_at,night_2).",
+      "has(Last_1,instance_of,Last).",
+      "has(Last,is_subclass_of,all).",
+      "has(night_2,instance_of,night).",
+      "has(night,is_subclass_of,time).",
+      "has(pool_8,instance_of,pool).",
+      "has(pool,is_subclass_of,group).",
+      "has(swam_5,instance_of,swim).",
+      "has(swim,is_subclass_of,motion).",
+      "has(I_4,instance_of,I).",
+      "has(I,is_subclass_of,person).",
+      "has(I_4,semantic_role,:swimmer)."
+    ]
+  },
+  {
+    "type": "nn-complement_phrase1",
+    "input": "Sam eats cow meat.",
+    "output": [
+      "has(meat_4,complement_phrase,cow_3).",
+      "has(eats_2,agent,Sam_1).",
+      "has(eats_2,recipient,meat_4).",
+      "has(meat_4,instance_of,meat).",
+      "has(meat,is_subclass_of,food).",
+      "has(eats_2,instance_of,eat).",
+      "has(eat,is_subclass_of,consumption).",
+      "has(cow_3,instance_of,cow).",
+      "has(cow,is_subclass_of,animal).",
+      "has(Sam_1,instance_of,Sam).",
+      "has(Sam,is_subclass_of,person).",
+      "has(Sam_1,semantic_role,:consumer, eater).",
+      "has(meat_4,semantic_role,:meal)."
+    ]
+  },
+  {
+    "type": "amod-trait2",
+    "input": "Sam eats red meat.",
+    "output": [
+      "has(eats_2,agent,Sam_1).",
+      "has(eats_2,recipient,meat_4).",
+      "has(meat_4,trait,red_3).",
+      "has(meat_4,instance_of,meat).",
+      "has(meat,is_subclass_of,food).",
+      "has(red_3,instance_of,red).",
+      "has(red,is_subclass_of,all).",
+      "has(eats_2,instance_of,eat).",
+      "has(eat,is_subclass_of,consumption).",
+      "has(Sam_1,instance_of,Sam).",
+      "has(Sam,is_subclass_of,person).",
+      "has(Sam_1,semantic_role,:consumer, eater).",
+      "has(meat_4,semantic_role,:meal)."
+    ]
+  },
+  {
+    "type": "but-next_event1",
+    "input": "John asked Jim but Timmy replied.",
+    "output": [
+      "has(replied_6,agent,Jim_3).",
+      "has(replied_6,agent,Timmy_5).",
+      "has(asked_2,agent,John_1).",
+      "has(asked_2,next_event,replied_6).",
+      "has(replied_6,instance_of,reply).",
+      "has(reply,is_subclass_of,communication).",
+      "has(Timmy_5,instance_of,Timmy).",
+      "has(Timmy,is_subclass_of,person).",
+      "has(John_1,instance_of,John).",
+      "has(John,is_subclass_of,person).",
+      "has(Jim_3,instance_of,Jim).",
+      "has(Jim,is_subclass_of,person).",
+      "has(asked_2,instance_of,ask).",
+      "has(ask,is_subclass_of,communication).",
+      "has(Jim_3,semantic_role,:replier).",
+      "has(Timmy_5,semantic_role,:replier).",
+      "has(John_1,semantic_role,:asker)."
+    ]
+  },
+  {
+    "type": "and-next_event2",
+    "input": "John asked Jim and he replied.",
+    "output": [
+      "has(replied_6,agent,Jim_3).",
+      "has(replied_6,agent,he_5).",
+      "has(asked_2,agent,John_1).",
+      "has(asked_2,next_event,replied_6).",
+      "has(replied_6,instance_of,reply).",
+      "has(reply,is_subclass_of,communication).",
+      "has(John_1,instance_of,John).",
+      "has(John,is_subclass_of,person).",
+      "has(he_5,instance_of,he).",
+      "has(he,is_subclass_of,person).",
+      "has(Jim_3,instance_of,Jim).",
+      "has(Jim,is_subclass_of,person).",
+      "has(asked_2,instance_of,ask).",
+      "has(ask,is_subclass_of,communication).",
+      "has(Jim_3,semantic_role,:replier).",
+      "has(he_5,semantic_role,:replier).",
+      "has(John_1,semantic_role,:asker)."
+    ]
+  },
+  {
+    "type": "csubj-agent2",
+    "input": "What she said makes sense.",
+    "output": [
+      "has(said_3,agent,she_2).",
+      "has(makes_4,recipient,sense_5).",
+      "has(said_3,recipient,What_1).",
+      "has(What_1,instance_of,What).",
+      "has(sense_5,instance_of,sense).",
+      "has(sense,is_subclass_of,cognition).",
+      "has(she_2,instance_of,she).",
+      "has(she,is_subclass_of,person).",
+      "has(said_3,instance_of,say).",
+      "has(say,is_subclass_of,communication).",
+      "has(makes_4,instance_of,make).",
+      "has(make,is_subclass_of,cognition).",
+      "has(she_2,semantic_role,:Sayer).",
+      "has(sense_5,semantic_role,:creation).",
+      "has(What_1,semantic_role,:Utterance)."
+    ]
+  },
+  {
+    "type": "csubjpass-recipient4",
+    "input": "That she lied was suspected by everyone.",
+    "output": [
+      "has(lied_3,agent,she_2).",
+      "has(suspected_5,agent,everyone_7).",
+      "has(she_2,instance_of,she).",
+      "has(she,is_subclass_of,person).",
+      "has(everyone_7,instance_of,everyone).",
+      "has(suspected_5,instance_of,suspect).",
+      "has(suspect,is_subclass_of,communication).",
+      "has(lied_3,instance_of,lie).",
+      "has(lie,is_subclass_of,stative).",
+      "has(everyone_7,semantic_role,:suspecter)."
+    ]
+  },
+  {
+    "type": "so-causes1",
+    "input": "Tom stabbed Jim so he died.",
+    "output": [
+      "has(stabbed_2,causes,died_6).",
+      "has(died_6,agent,he_5).",
+      "has(stabbed_2,agent,Tom_1).",
+      "has(stabbed_2,recipient,Jim_3).",
+      "has(stabbed_2,instance_of,stab).",
+      "has(stab,is_subclass_of,contact).",
+      "has(died_6,instance_of,die).",
+      "has(die,is_subclass_of,change).",
+      "has(he_5,instance_of,he).",
+      "has(he,is_subclass_of,person).",
+      "has(Jim_3,instance_of,Jim).",
+      "has(Jim,is_subclass_of,person).",
+      "has(Tom_1,instance_of,Tom).",
+      "has(Tom,is_subclass_of,person).",
+      "has(Tom_1,semantic_role,:stabber).",
+      "has(Jim_3,semantic_role,:thing stabbed)."
+    ]
+  },
+  {
+    "type": "because-caused_by1",
+    "input": "I could not walk because I felt tired.",
+    "output": [
+      "has(walk_4,negative,not_3).",
+      "has(felt_7,object,tired_8).",
+      "has(walk_4,caused_by,felt_7).",
+      "has(felt_7,agent,I_6).",
+      "has(walk_4,agent,I_1).",
+      "has(walk_4,caused_by,felt_7).",
+      "has(felt_7,instance_of,feel).",
+      "has(feel,is_subclass_of,emotion).",
+      "has(I_6,instance_of,I).",
+      "has(I,is_subclass_of,person).",
+      "has(tired_8,instance_of,tired).",
+      "has(tired,is_subclass_of,body).",
+      "has(I_1,instance_of,I).",
+      "has(I,is_subclass_of,person).",
+      "has(not_3,instance_of,not).",
+      "has(not,is_subclass_of,all).",
+      "has(walk_4,instance_of,walk).",
+      "has(walk,is_subclass_of,motion).",
+      "has(I_6,semantic_role,:feeler,person experiencing emotion).",
+      "has(I_1,semantic_role,:walker)."
+    ]
+  },
+  {
+    "type": "unless-inhibited_by1",
+    "input": "I'll walk to town unless it rains.",
+    "output": [
+      "has(walk_3,inhibited_by,rains_8).",
+      "has(walk_3,agent,I_1).",
+      "has(rains_8,agent,it_7).",
+      "has(walk_3,destination,town_5).",
+      "has(town_5,instance_of,town).",
+      "has(town,is_subclass_of,location).",
+      "has(it_7,instance_of,it).",
+      "has(it,is_subclass_of,object).",
+      "has(rains_8,instance_of,rain).",
+      "has(I_1,instance_of,I).",
+      "has(I,is_subclass_of,person).",
+      "has(walk_3,instance_of,walk).",
+      "has(walk,is_subclass_of,motion).",
+      "has(I_1,semantic_role,:walker).",
+      "has(it_7,semantic_role,:metaphorical agent).",
+      "has(will_2,instance_of,will)."
+    ]
+  },
+  {
+    "type": "neg-negative1",
+    "input": "Bill is not good.",
+    "output": [
+      "has(good_4,negative,not_3).",
+      "has(Bill_1,trait,good_4).",
+      "has(good_4,instance_of,good).",
+      "has(good,is_subclass_of,all).",
+      "has(not_3,instance_of,not).",
+      "has(not,is_subclass_of,all).",
+      "has(Bill_1,instance_of,Bill).",
+      "has(Bill,is_subclass_of,person)."
+    ]
+  }
+]

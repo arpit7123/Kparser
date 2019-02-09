@@ -1,0 +1,266 @@
+[
+  {
+    "input": "Clinton defeated Dole.",
+    "output": "has(defeated_2,agent,Clinton_1). has(defeated_2,recipient,Dole_3). has(Clinton_1,instance_of,Clinton). has(Clinton,superclass,person). has(defeated_2,instance_of,defeat). has(defeat,superclass,competition). has(Dole_3,instance_of,Dole). has(Dole,superclass,person). has(Clinton_1,semantic_role,:entity victorious). has(Dole_3,semantic_role,:entity defeated)."
+  },
+  {
+    "input": "What she said makes sense.",
+    "output": "has(said_3,agent,she_2). has(makes_4,recipient,sense_5). has(said_3,recipient,q_1). has(q_1,instance_of,q). has(sense_5,instance_of,sense). has(sense,superclass,cognition). has(she_2,instance_of,she). has(she,superclass,person). has(said_3,instance_of,say). has(say,superclass,communication). has(makes_4,instance_of,make). has(make,superclass,cognition). has(she_2,semantic_role,:Sayer). has(sense_5,semantic_role,:creation). has(q_1,semantic_role,:Utterance)."
+  },
+  {
+    "input": "Tom likes to eat fish.",
+    "output": "has(likes_2,objective,eat_4). has(likes_2,agent,Tom_1). has(eat_4,agent,Tom_1). has(eat_4,recipient,fish_5). has(fish_5,instance_of,fish). has(fish,superclass,animal). has(eat_4,instance_of,eat). has(eat,superclass,consumption). has(likes_2,instance_of,like). has(like,superclass,emotion). has(Tom_1,instance_of,Tom). has(Tom,superclass,person). has(Tom_1,semantic_role,:liker). has(Tom_1,semantic_role,:consumer, eater). has(fish_5,semantic_role,:meal)."
+  },
+  {
+    "input": "The man has been killed by the police.",
+    "output": "has(killed_5,recipient,man_2). has(killed_5,agent,police_8). has(man_2,instance_of,man). has(man,superclass,animal). has(police_8,instance_of,police). has(police,superclass,group). has(killed_5,instance_of,kill). has(kill,superclass,contact). has(man_2,semantic_role,:corpse). has(police_8,semantic_role,:killer)."
+  },
+  {
+    "input": "Bill is big.",
+    "output": "has(Bill_1,trait,big_3). has(big_3,instance_of,big). has(big,superclass,all). has(Bill_1,instance_of,Bill). has(Bill,superclass,person)."
+  },
+  {
+    "input": "Sam eats red meat.",
+    "output": "has(eats_2,agent,Sam_1). has(eats_2,recipient,meat_4). has(meat_4,trait,red_3). has(meat_4,instance_of,meat). has(meat,superclass,food). has(red_3,instance_of,red). has(red,superclass,all). has(eats_2,instance_of,eat). has(eat,superclass,consumption). has(Sam_1,instance_of,Sam). has(Sam,superclass,person). has(Sam_1,semantic_role,:consumer, eater). has(meat_4,semantic_role,:meal)."
+  },
+  {
+    "input": "It was dark inside the tunnel.",
+    "output": "has(dark_3_LOC,trait,dark_3). has(tunnel_6,location,tunnel_6_LOC). has(tunnel_6_LOC,is_inside,dark_3_LOC). has(It_1,trait,dark_3). has(dark_3,instance_of,dark). has(dark,superclass,all). has(It_1,instance_of,It). has(It,superclass,object). has(tunnel_6,instance_of,tunnel). has(tunnel,superclass,artifact). has(tunnel_6_LOC,instance_of,location). has(dark_3_LOC,instance_of,location)."
+  },
+  {
+    "input": "She is like her sister.",
+    "output": "has(is_2,recipient,is_2_REC). has(is_2_REC,trait,is_2_REC_TRAIT). has(sister_5,trait,sister_5_TRAIT). has(is_2_REC_TRAIT,same_as,sister_5_TRAIT). has(is_2,agent,She_1). has(sister_5,related_to,her_4). has(sister_5,instance_of,sister). has(sister,superclass,person). has(is_2_REC,instance_of,recipient). has(sister_5_TRAIT,instance_of,sister). has(her_4,instance_of,her). has(her,superclass,person). has(is_2,instance_of,be). has(be,superclass,stative). has(She_1,instance_of,She). has(She,superclass,person). has(is_2_REC_TRAIT,instance_of,is)."
+  },
+  {
+    "input": "He says that you like to swim.",
+    "output": "has(says_2,resulting_state,like_5). has(like_5,objective,swim_7). has(says_2,agent,He_1). has(swim_7,agent,you_4). has(like_5,agent,you_4). has(says_2,instance_of,say). has(say,superclass,communication). has(He_1,instance_of,He). has(He,superclass,person). has(you_4,instance_of,you). has(you,superclass,person). has(like_5,instance_of,like). has(like,superclass,emotion). has(swim_7,instance_of,swim). has(swim,superclass,motion). has(He_1,semantic_role,:Sayer). has(you_4,semantic_role,:swimmer). has(you_4,semantic_role,:liker)."
+  },
+  {
+    "input": "I am ready to leave.",
+    "output": "has(I_1,trait,ready_3). has(leave_5,agent,I_1). has(leave_5,instance_of,leave). has(leave,superclass,motion). has(ready_3,instance_of,ready). has(ready,superclass,all). has(I_1,instance_of,I). has(I,superclass,person). has(I_1,semantic_role,:entity leaving)."
+  },
+  {
+    "input": "She looked a place for hanging the painting.",
+    "output": "has(looked_2,agent,She_1). has(looked_2,objective,hanging_6). has(looked_2,recipient,place_4). has(hanging_6,recipient,painting_8). has(hanging_6,instance_of,hang). has(hang,superclass,contact). has(painting_8,instance_of,painting). has(painting,superclass,act). has(looked_2,instance_of,look). has(look,superclass,perception). has(place_4,instance_of,place). has(place,superclass,act). has(She_1,instance_of,She). has(She,superclass,person). has(She_1,semantic_role,:looker). has(place_4,semantic_role,:thing looked at or for or on). has(painting_8,semantic_role,:thing suspended)."
+  },
+  {
+    "input": "She gave me a raise.",
+    "output": "has(gave_2,agent,She_1). has(gave_2,recipient,raise_5). has(gave_2,recipient,me_3). has(gave_2,recipient,raise_5). has(gave_2,recipient,me_3). has(gave_2,instance_of,give). has(give,superclass,possession). has(raise_5,instance_of,raise). has(raise,superclass,attribute). has(me_3,instance_of,me). has(me,superclass,person). has(She_1,instance_of,She). has(She,superclass,person). has(She_1,semantic_role,:giver). has(raise_5,semantic_role,:thing given). has(me_3,semantic_role,:thing given). has(raise_5,semantic_role,:thing given). has(me_3,semantic_role,:thing given)."
+  },
+  {
+    "input": "They win the lottery.",
+    "output": "has(win_2,agent,They_1). has(win_2,recipient,lottery_4). has(win_2,instance_of,win). has(win,superclass,competition). has(They_1,instance_of,They). has(They,superclass,group). has(lottery_4,instance_of,lottery). has(lottery,superclass,event). has(They_1,semantic_role,:winner). has(lottery_4,semantic_role,:thing won (contest or prize))."
+  },
+  {
+    "input": "That she lied was suspected by everyone.",
+    "output": "has(lied_3,agent,she_2). has(suspected_5,agent,everyone_7). has(she_2,instance_of,she). has(she,superclass,person). has(everyone_7,instance_of,everyone). has(suspected_5,instance_of,suspect). has(suspect,superclass,communication). has(lied_3,instance_of,lie). has(lie,superclass,stative). has(everyone_7,semantic_role,:suspecter)."
+  },
+  {
+    "input": "Dole was defeated by Clinton.",
+    "output": "has(defeated_3,recipient,Dole_1). has(defeated_3,agent,Clinton_5). has(Dole_1,instance_of,Dole). has(Dole,superclass,person). has(defeated_3,instance_of,defeat). has(defeat,superclass,competition). has(Clinton_5,instance_of,Clinton). has(Clinton,superclass,person). has(Dole_1,semantic_role,:entity defeated). has(Clinton_5,semantic_role,:entity victorious)."
+  },
+  {
+    "input": "Tom asked about the car.",
+    "output": "has(asked_2,object,car_5). has(asked_2,agent,Tom_1). has(car_5,instance_of,car). has(car,superclass,artifact). has(asked_2,instance_of,ask). has(ask,superclass,communication). has(Tom_1,instance_of,Tom). has(Tom,superclass,person). has(Tom_1,semantic_role,:asker)."
+  },
+  {
+    "input": "Tom leaned against the car.",
+    "output": "has(leaned_2,agent,Tom_1). has(leaned_2,object,car_5). has(leaned_2,instance_of,lean). has(lean,superclass,motion). has(car_5,instance_of,car). has(car,superclass,artifact). has(Tom_1,instance_of,Tom). has(Tom,superclass,person). has(Tom_1,semantic_role,:causer of leaning)."
+  },
+  {
+    "input": "Tom drove through the tunnel.",
+    "output": "has(drove_2,object,tunnel_5). has(drove_2,agent,Tom_1). has(tunnel_5,instance_of,tunnel). has(tunnel,superclass,artifact). has(drove_2,instance_of,drive). has(drive,superclass,motion). has(Tom_1,instance_of,Tom). has(Tom,superclass,person). has(Tom_1,semantic_role,:driver)."
+  },
+  {
+    "input": "Tom drew a painting on the wall.",
+    "output": "has(drew_2,agent,Tom_1). has(drew_2,recipient,painting_4). has(drew_2,object,wall_7). has(drew_2,instance_of,draw). has(draw,superclass,contact). has(painting_4,instance_of,painting). has(painting,superclass,artifact). has(wall_7,instance_of,wall). has(wall,superclass,artifact). has(Tom_1,instance_of,Tom). has(Tom,superclass,person). has(Tom_1,semantic_role,:artist). has(painting_4,semantic_role,:art)."
+  },
+  {
+    "input": "She got out of the car.",
+    "output": "has(got_2,object,car_6). has(got_2,agent,She_1). has(got_2,instance_of,get). has(get,superclass,possession). has(She_1,instance_of,She). has(She,superclass,person). has(car_6,instance_of,car). has(car,superclass,artifact). has(She_1,semantic_role,:receiver)."
+  },
+  {
+    "input": "She died of cancer.",
+    "output": "has(died_2,object,cancer_4). has(died_2,agent,She_1). has(She_1,instance_of,She). has(She,superclass,person). has(cancer_4,instance_of,cancer). has(cancer,superclass,state). has(died_2,instance_of,die). has(die,superclass,change)."
+  },
+  {
+    "input": "He says that you like to swim.",
+    "output": "has(says_2,resulting_state,like_5). has(like_5,objective,swim_7). has(says_2,agent,He_1). has(swim_7,agent,you_4). has(like_5,agent,you_4). has(says_2,instance_of,say). has(say,superclass,communication). has(He_1,instance_of,He). has(He,superclass,person). has(you_4,instance_of,you). has(you,superclass,person). has(like_5,instance_of,like). has(like,superclass,emotion). has(swim_7,instance_of,swim). has(swim,superclass,motion). has(He_1,semantic_role,:Sayer). has(you_4,semantic_role,:swimmer). has(you_4,semantic_role,:liker)."
+  },
+  {
+    "input": "Tom killed John with a knife.",
+    "output": "has(killed_2,agent,Tom_1). has(killed_2,raw_material,knife_6). has(killed_2,recipient,John_3). has(John_3,instance_of,John). has(John,superclass,person). has(knife_6,instance_of,knife). has(knife,superclass,artifact). has(killed_2,instance_of,kill). has(kill,superclass,contact). has(Tom_1,instance_of,Tom). has(Tom,superclass,person). has(Tom_1,semantic_role,:killer). has(John_3,semantic_role,:corpse)."
+  },
+  {
+    "input": "Tom went to market with Jim.",
+    "output": "has(went_2,agent,Tom_1). has(went_2,accompanier,Jim_6). has(went_2,destination,market_4). has(went_2,instance_of,go). has(go,superclass,motion). has(market_4,instance_of,market). has(market,superclass,act). has(Jim_6,instance_of,Jim). has(Jim,superclass,person). has(Tom_1,instance_of,Tom). has(Tom,superclass,person)."
+  },
+  {
+    "input": "The house has a window with a grill.",
+    "output": "has(has_3,agent,house_2). has(window_5,has_part,grill_8). has(has_3,recipient,window_5). has(window_5,instance_of,window). has(window,superclass,artifact). has(house_2,instance_of,house). has(house,superclass,artifact). has(has_3,instance_of,have). has(have,superclass,possession). has(grill_8,instance_of,grill). has(grill,superclass,artifact)."
+  },
+  {
+    "input": "John asked Jim but Timmy replied.",
+    "output": "has(asked_2,resulting_state,replied_6). has(replied_6,agent,Jim_3). has(replied_6,agent,Timmy_5). has(asked_2,agent,John_1). has(asked_2,next_event,replied_6). has(replied_6,instance_of,reply). has(reply,superclass,communication). has(Timmy_5,instance_of,Timmy). has(Timmy,superclass,person). has(John_1,instance_of,John). has(John,superclass,person). has(Jim_3,instance_of,Jim). has(Jim,superclass,person). has(asked_2,instance_of,ask). has(ask,superclass,communication). has(Jim_3,semantic_role,:replier). has(Timmy_5,semantic_role,:replier). has(John_1,semantic_role,:asker)."
+  },
+  {
+    "input": "John asked Jim and he replied.",
+    "output": "has(asked_2,resulting_state,replied_6). has(replied_6,agent,Jim_3). has(replied_6,agent,he_5). has(asked_2,agent,John_1). has(asked_2,next_event,replied_6). has(replied_6,instance_of,reply). has(reply,superclass,communication). has(John_1,instance_of,John). has(John,superclass,person). has(he_5,instance_of,he). has(he,superclass,person). has(Jim_3,instance_of,Jim). has(Jim,superclass,person). has(asked_2,instance_of,ask). has(ask,superclass,communication). has(Jim_3,semantic_role,:replier). has(he_5,semantic_role,:replier). has(John_1,semantic_role,:asker)."
+  },
+  {
+    "input": "John asked a question. Tom answered it.",
+    "output": "has(asked_2,agent,John_1). has(answered_7,agent,Tom_6). has(asked_2,recipient,question_4). has(answered_7,recipient,it_8). has(asked_2,result,answered_7). has(asked_2,next_event,answered_7). has(it_8,instance_of,it). has(it,superclass,object). has(Tom_6,instance_of,Tom). has(Tom,superclass,person). has(John_1,instance_of,John). has(John,superclass,person). has(asked_2,instance_of,ask). has(ask,superclass,communication). has(question_4,instance_of,question). has(question,superclass,communication). has(answered_7,instance_of,answer). has(answer,superclass,communication). has(John_1,semantic_role,:asker). has(Tom_6,semantic_role,:replier). has(question_4,semantic_role,:question). has(it_8,semantic_role,:answer)."
+  },
+  {
+    "input": "Bill is not good.",
+    "output": "has(good_4,negative,not_3). has(Bill_1,trait,good_4). has(good_4,instance_of,good). has(good,superclass,all). has(not_3,instance_of,not). has(not,superclass,all). has(Bill_1,instance_of,Bill). has(Bill,superclass,person)."
+  },
+  {
+    "input": "Bill does not drive.",
+    "output": "has(drive_4,negative,not_3). has(drive_4,agent,Bill_1). has(drive_4,instance_of,drive). has(drive,superclass,motion). has(not_3,instance_of,not). has(not,superclass,all). has(Bill_1,instance_of,Bill). has(Bill,superclass,person). has(Bill_1,semantic_role,:driver)."
+  },
+  {
+    "input": "John was killed in the attic.",
+    "output": "has(killed_3,recipient,John_1). has(killed_3,destination/time_at,attic_6). has(attic_6,instance_of,attic). has(attic,superclass,artifact). has(John_1,instance_of,John). has(John,superclass,person). has(killed_3,instance_of,kill). has(kill,superclass,contact). has(John_1,semantic_role,:corpse)."
+  },
+  {
+    "input": "John fell into a well.",
+    "output": "has(fell_2,destination,well_5). has(fell_2,agent,John_1). has(well_5,instance_of,well). has(well,superclass,all). has(John_1,instance_of,John). has(John,superclass,person). has(fell_2,instance_of,fall). has(fall,superclass,motion)."
+  },
+  {
+    "input": "John walked to the jungle.",
+    "output": "has(walked_2,agent,John_1). has(walked_2,destination,jungle_5). has(walked_2,instance_of,walk). has(walk,superclass,motion). has(John_1,instance_of,John). has(John,superclass,person). has(jungle_5,instance_of,jungle). has(jungle,superclass,location). has(John_1,semantic_role,:walker)."
+  },
+  {
+    "input": "We went aboard the boat.",
+    "output": "has(went_2,agent,We_1). has(went_2,destination,boat_5). has(went_2,instance_of,go). has(go,superclass,motion). has(boat_5,instance_of,boat). has(boat,superclass,artifact). has(We_1,instance_of,We). has(We,superclass,group)."
+  },
+  {
+    "input": "We drove across the desert.",
+    "output": "has(drove_2,destination,drove_2_DEST). has(desert_5,location,desert_5_LOC). has(drove_2_DEST,is_outside,desert_5_LOC). has(drove_2,agent,We_1). has(desert_5_LOC,instance_of,location). has(drove_2_DEST,instance_of,destication). has(We_1,instance_of,We). has(We,superclass,group). has(drove_2,instance_of,drive). has(drive,superclass,motion). has(desert_5,instance_of,desert). has(desert,superclass,location). has(We_1,semantic_role,:driver)."
+  },
+  {
+    "input": "They shut down the station.",
+    "output": "has(shut_2,location,down_3). has(shut_2,agent,They_1). has(shut_2,recipient,station_5). has(shut_2,instance_of,shut). has(shut,superclass,contact). has(station_5,instance_of,station). has(station,superclass,artifact). has(down_3,instance_of,down). has(down,superclass,all). has(They_1,instance_of,They). has(They,superclass,group). has(They_1,semantic_role,:person doing the closing). has(station_5,semantic_role,:thing closing)."
+  },
+  {
+    "input": "The event occurred at Tom’s place.",
+    "output": "has(place_6,complement_phrase,Toms_5). has(occurred_3,agent,event_2). has(occurred_3,site,place_6). has(event_2,instance_of,event). has(event,superclass,Tops). has(occurred_3,instance_of,occur). has(occur,superclass,change). has(Toms_5,instance_of,Tom). has(Tom,superclass,person). has(place_6,instance_of,place). has(place,superclass,cognition)."
+  },
+  {
+    "input": "We are flying above the clouds.",
+    "output": "has(flying_3,agent,We_1). has(flying_3,site,flying_3_SITE). has(flying_3_SITE,is_above,clouds_6). has(flying_3_SITE,instance_of,flying). has(flying_3,instance_of,fly). has(fly,superclass,motion). has(We_1,instance_of,We). has(We,superclass,group). has(clouds_6,instance_of,cloud). has(cloud,superclass,phenomenon)."
+  },
+  {
+    "input": "their offices.",
+    "output": "has(offices_2,is_possessed_by,their_1). has(their_1,instance_of,their). has(their,superclass,group). has(offices_2,instance_of,office). has(office,superclass,artifact)."
+  },
+  {
+    "input": "Bill’s clothes.",
+    "output": "has(clothes_2,instance_of,clothes). has(Bills_1,instance_of,Bill)."
+  },
+  {
+    "input": "Tom took the pen of Jim.",
+    "output": "has(pen_4,is_possessed_by,Jim_6). has(took_2,agent,Tom_1). has(took_2,recipient,pen_4). has(took_2,instance_of,take). has(take,superclass,social). has(Tom_1,instance_of,Tom). has(Tom,superclass,person). has(Jim_6,instance_of,Jim). has(Jim,superclass,person). has(pen_4,instance_of,pen). has(pen,superclass,artifact)."
+  },
+  {
+    "input": "Bill loves his wife.",
+    "output": "has(loves_2,agent,Bill_1). has(loves_2,recipient,wife_4). has(wife_4,related_to,his_3). has(his_3,instance_of,his). has(his,superclass,person). has(wife_4,instance_of,wife). has(wife,superclass,person). has(loves_2,instance_of,love). has(love,superclass,emotion). has(Bill_1,instance_of,Bill). has(Bill,superclass,person). has(Bill_1,semantic_role,:lover). has(wife_4,semantic_role,:loved)."
+  },
+  {
+    "input": "Sam eats cow meat.",
+    "output": "has(meat_4,complement_phrase,cow_3). has(eats_2,agent,Sam_1). has(eats_2,recipient,meat_4). has(meat_4,instance_of,meat). has(meat,superclass,food). has(eats_2,instance_of,eat). has(eat,superclass,consumption). has(cow_3,instance_of,cow). has(cow,superclass,animal). has(Sam_1,instance_of,Sam). has(Sam,superclass,person). has(Sam_1,semantic_role,:consumer, eater). has(meat_4,semantic_role,:meal)."
+  },
+  {
+    "input": "Sam ate 3 sheep.",
+    "output": "has(sheep_4,size,3_3). has(ate_2,agent,Sam_1). has(ate_2,recipient,sheep_4). has(sheep_4,instance_of,sheep). has(sheep,superclass,animal). has(ate_2,instance_of,eat). has(eat,superclass,consumption). has(Sam_1,instance_of,Sam). has(Sam,superclass,person). has(3_3,instance_of,3). has(Sam_1,semantic_role,:consumer, eater). has(sheep_4,semantic_role,:meal)."
+  },
+  {
+    "input": "Last night, I swam in the pool.",
+    "output": "has(swam_5,agent,I_4). has(swam_5,destination/time_at,pool_8). has(night_2,trait,Last_1). has(swam_5,time-at,night_2). has(Last_1,instance_of,Last). has(Last,superclass,all). has(night_2,instance_of,night). has(night,superclass,time). has(pool_8,instance_of,pool). has(pool,superclass,group). has(swam_5,instance_of,swim). has(swim,superclass,motion). has(I_4,instance_of,I). has(I,superclass,person). has(I_4,semantic_role,:swimmer)."
+  },
+  {
+    "input": "Sam , my brother , arrived.",
+    "output": "has(Sam_1,information_content,brother_4). has(arrived_6,agent,Sam_1). has(brother_4,related_to,my_3). has(arrived_6,instance_of,arrive). has(arrive,superclass,motion). has(brother_4,instance_of,brother). has(brother,superclass,person). has(my_3,instance_of,my). has(my,superclass,person). has(Sam_1,instance_of,Sam). has(Sam,superclass,person)."
+  },
+  {
+    "input": "I’ll walk to town unless it rains.",
+    "output": "has(walk_2,inhibited_by,rains_7). has(walk_2,agent,Ill_1). has(rains_7,agent,it_6). has(walk_2,destination,town_4). has(town_4,instance_of,town). has(town,superclass,location). has(it_6,instance_of,it). has(it,superclass,object). has(rains_7,instance_of,rain). has(Ill_1,instance_of,Ill). has(Ill,superclass,state). has(walk_2,instance_of,walk). has(walk,superclass,act). has(Ill_1,semantic_role,:walker). has(it_6,semantic_role,:metaphorical agent)."
+  },
+  {
+    "input": "I could not walk because I felt tired.",
+    "output": "has(walk_4,negative,not_3). has(felt_7,object,tired_8). has(walk_4,caused_by,felt_7). has(felt_7,agent,I_6). has(walk_4,agent,I_1). has(walk_4,caused_by,felt_7). has(felt_7,instance_of,feel). has(feel,superclass,emotion). has(I_6,instance_of,I). has(I,superclass,person). has(tired_8,instance_of,tired). has(tired,superclass,body). has(I_1,instance_of,I). has(I,superclass,person). has(not_3,instance_of,not). has(not,superclass,all). has(walk_4,instance_of,walk). has(walk,superclass,motion). has(I_6,semantic_role,:feeler, person experiencing emotion). has(I_1,semantic_role,:walker)."
+  },
+  {
+    "input": "Tom stabbed Jim so he died.",
+    "output": "has(stabbed_2,causes,died_6). has(died_6,agent,he_5). has(stabbed_2,agent,Tom_1). has(stabbed_2,recipient,Jim_3). has(stabbed_2,causes,died_6). has(stabbed_2,instance_of,stab). has(stab,superclass,contact). has(died_6,instance_of,die). has(die,superclass,change). has(he_5,instance_of,he). has(he,superclass,person). has(Jim_3,instance_of,Jim). has(Jim,superclass,person). has(Tom_1,instance_of,Tom). has(Tom,superclass,person). has(Tom_1,semantic_role,:stabber). has(Jim_3,semantic_role,:thing stabbed)."
+  },
+  {
+    "input": "Every boxer walks.",
+    "output": "has(walks_3,agent,boxer_2). has(walks_3,instance_of,walk). has(walk,superclass,act). has(boxer_2,prototype_of,boxer). has(boxer,superclass,person). has(boxer_2,semantic_role,:walker)."
+  },
+  {
+    "input": "We are flying above the clouds.",
+    "output": "has(flying_3,agent,We_1). has(flying_3,site,flying_3_SITE). has(flying_3_SITE,is_above,clouds_6). has(flying_3_SITE,instance_of,flying). has(flying_3,instance_of,fly). has(fly,superclass,motion). has(We_1,instance_of,We). has(We,superclass,group). has(clouds_6,instance_of,cloud). has(cloud,superclass,phenomenon)."
+  },
+  {
+    "input": "The church is situated atop a hill.",
+    "output": "has(situated_4,location,situated_4_LOC). has(hill_7,location,hill_7_LOC). has(situated_4_LOC,is_above,hill_7_LOC). has(situated_4,recipient,church_2). has(situated_4,instance_of,situate). has(situate,superclass,stative). has(church_2,instance_of,church). has(church,superclass,artifact). has(hill_7,instance_of,hill). has(hill,superclass,artifact). has(situated_4_LOC,instance_of,location). has(hill_7_LOC,instance_of,location). has(church_2,semantic_role,:thing situated)."
+  },
+  {
+    "input": "We drove across the desert.",
+    "output": "has(drove_2,destination,drove_2_DEST). has(desert_5,location,desert_5_LOC). has(drove_2_DEST,is_outside,desert_5_LOC). has(drove_2,agent,We_1). has(desert_5_LOC,instance_of,location). has(drove_2_DEST,instance_of,destication). has(We_1,instance_of,We). has(We,superclass,group). has(drove_2,instance_of,drive). has(drive,superclass,motion). has(desert_5,instance_of,desert). has(desert,superclass,location). has(We_1,semantic_role,:driver)."
+  },
+  {
+    "input": "We walked along the beach for two miles.",
+    "output": "has(miles_8,size,two_7). has(walked_2,location,along_3). has(walked_2,agent,We_1). has(walked_2,recipient,beach_5). has(walked_2,instance_of,walk). has(walk,superclass,motion). has(two_7,instance_of,two). has(along_3,instance_of,along). has(miles_8,instance_of,mile). has(mile,superclass,quantity). has(beach_5,instance_of,beach). has(beach,superclass,object). has(We_1,instance_of,We). has(We,superclass,group). has(We_1,semantic_role,:walker). has(beach_5,semantic_role,:path walked, not dir)."
+  },
+  {
+    "input": "There is a police car behind us.",
+    "output": "has(car_5,complement_phrase,police_4). has(is_2,agent,car_5). has(car_5,location,car_5_LOC). has(us_7,location,us_7_LOC). has(car_5_LOC,is_behind,us_7_LOC). has(us_7_LOC,instance_of,location). has(us_7,instance_of,u). has(car_5_LOC,instance_of,location). has(is_2,instance_of,be). has(be,superclass,stative). has(car_5,instance_of,car). has(car,superclass,artifact). has(police_4,instance_of,police). has(police,superclass,group)."
+  },
+  {
+    "input": "Sam was hiding under the table.",
+    "output": "has(hiding_3,location,hiding_3_LOC). has(table_6,location,table_6_LOC). has(hiding_3_LOC,is_under,table_6_LOC). has(hiding_3,agent,Sam_1). has(hiding_3,instance_of,hide). has(hide,superclass,perception). has(table_6_LOC,instance_of,location). has(hiding_3_LOC,instance_of,location). has(table_6,instance_of,table). has(table,superclass,food). has(Sam_1,instance_of,Sam). has(Sam,superclass,person)."
+  },
+  {
+    "input": "The river runs beside our house.",
+    "output": "has(runs_3,location,runs_3_LOC). has(house_6,location,house_6_LOC). has(runs_3_LOC,is_beside,house_6_LOC). has(runs_3,agent,river_2). has(house_6,is_possessed_by,our_5). has(river_2,instance_of,river). has(river,superclass,object). has(runs_3_LOC,instance_of,location). has(runs_3,instance_of,run). has(run,superclass,motion). has(our_5,instance_of,our). has(our,superclass,person). has(house_6_LOC,instance_of,location). has(house_6,instance_of,house). has(house,superclass,artifact). has(river_2,semantic_role,:operator)."
+  },
+  {
+    "input": "He fell asleep during the meeting.",
+    "output": "has(fell_2,object,asleep_3). has(meeting_6,time_of_existence,meeting_6_TIME). has(fell_2,time_during,meeting_6_TIME). has(fell_2,agent,He_1). has(meeting_6_TIME,instance_of,time). has(meeting_6,instance_of,meeting). has(meeting,superclass,group). has(He_1,instance_of,He). has(He,superclass,person). has(asleep_3,instance_of,asleep). has(asleep,superclass,all). has(fell_2,instance_of,fall). has(fall,superclass,motion)."
+  },
+  {
+    "input": "It was dark inside the tunnel.",
+    "output": "has(dark_3_LOC,trait,dark_3). has(tunnel_6,location,tunnel_6_LOC). has(tunnel_6_LOC,is_inside,dark_3_LOC). has(It_1,trait,dark_3). has(dark_3,instance_of,dark). has(dark,superclass,all). has(It_1,instance_of,It). has(It,superclass,object). has(tunnel_6,instance_of,tunnel). has(tunnel,superclass,artifact). has(tunnel_6_LOC,instance_of,location). has(dark_3_LOC,instance_of,location)."
+  },
+  {
+    "input": "She is like her sister.",
+    "output": "has(is_2,recipient,is_2_REC). has(is_2_REC,trait,is_2_REC_TRAIT). has(sister_5,trait,sister_5_TRAIT). has(is_2_REC_TRAIT,same_as,sister_5_TRAIT). has(is_2,agent,She_1). has(sister_5,related_to,her_4). has(sister_5,instance_of,sister). has(sister,superclass,person). has(is_2_REC,instance_of,recipient). has(sister_5_TRAIT,instance_of,sister). has(her_4,instance_of,her). has(her,superclass,person). has(is_2,instance_of,be). has(be,superclass,stative). has(She_1,instance_of,She). has(She,superclass,person). has(is_2_REC_TRAIT,instance_of,is)."
+  },
+  {
+    "input": "The school is near the post office.",
+    "output": "has(is_3,location,is_3_LOC). has(office_7,location,office_7_LOC). has(is_3_LOC,is_near,office_7_LOC). has(office_7,complement_phrase,post_6). has(is_3,agent,school_2). has(school_2,instance_of,school). has(school,superclass,group). has(post_6,instance_of,post). has(post,superclass,act). has(is_3_LOC,instance_of,location). has(is_3,instance_of,be). has(be,superclass,stative). has(office_7,instance_of,office). has(office,superclass,artifact). has(office_7_LOC,instance_of,location)."
+  },
+  {
+    "input": "The cat jumped onto the chair.",
+    "output": "has(jumped_3,agent,cat_2). has(jumped_3,destnation,jumped_3_DEST). has(chair_6,location,chair_6_LOC). has(jumped_3_DEST,is_on,chair_6_LOC). has(chair_6,instance_of,chair). has(chair,superclass,artifact). has(cat_2,instance_of,cat). has(cat,superclass,artifact). has(jumped_3_DEST,instance_of,destication). has(jumped_3,instance_of,jump). has(jump,superclass,motion). has(chair_6_LOC,instance_of,location)."
+  },
+  {
+    "input": "There is a post office opposite my house.",
+    "output": "has(is_2,location,is_2_LOC). has(house_8,location,house_8_LOC). has(is_2_LOC,is_opposite,house_8_LOC). has(office_5,complement_phrase,post_4). has(is_2,agent,office_5). has(house_8,is_possessed_by,my_7). has(is_2_LOC,instance_of,location). has(house_8,instance_of,house). has(house,superclass,artifact). has(post_4,instance_of,post). has(post,superclass,location). has(is_2,instance_of,be). has(be,superclass,stative). has(office_5,instance_of,office). has(office,superclass,artifact). has(my_7,instance_of,my). has(my,superclass,person). has(house_8_LOC,instance_of,location)."
+  },
+  {
+    "input": "He drove off toward the mountain.",
+    "output": "has(drove_2,toward,mountain_6). has(drove_2,location,off_3). has(drove_2,agent,He_1). has(off_3,instance_of,off). has(off,superclass,all). has(He_1,instance_of,He). has(He,superclass,person). has(mountain_6,instance_of,mountain). has(mountain,superclass,object). has(drove_2,instance_of,drive). has(drive,superclass,motion). has(He_1,semantic_role,:driver)."
+  },
+  {
+    "input": "John took a flight from Phoenix to Denver.",
+    "output": "has(took_2,origin,Phoenix_6). has(took_2,agent,John_1). has(took_2,destination,Denver_8). has(took_2,recipient,flight_4). has(Denver_8,instance_of,Denver). has(Denver,superclass,location). has(John_1,instance_of,John). has(John,superclass,person). has(took_2,instance_of,take). has(take,superclass,social). has(Phoenix_6,instance_of,Phoenix). has(Phoenix,superclass,location). has(flight_4,instance_of,flight). has(flight,superclass,group)."
+  },
+  {
+    "input": "John loves Mia.",
+    "output": "has(loves_2,agent,John_1). has(loves_2,recipient,Mia_3). has(John_1,instance_of,John). has(John,superclass,person). has(Mia_3,instance_of,Mia). has(Mia,superclass,person). has(loves_2,instance_of,love). has(love,superclass,emotion). has(John_1,semantic_role,:lover). has(Mia_3,semantic_role,:loved)."
+  }
+]
