@@ -163,6 +163,7 @@
 				</div>
 
 			</div>
+			
 
 			<div class="col-md-9">
 				<form role="form" id="input-form">
@@ -170,7 +171,7 @@
 						<textarea class="form-control" id="sentence_input" rows="1"
 							placeholder="Type or paste sentence to parse here (Click on Parse button to submit)."></textarea>
 					</div>
-					<div class="checkbox">
+					<div class="checkbox" style="float:right;">
 						<label><input type="checkbox" id="checkCoreference"
 							name="" value="CheckCoreference" class="chk">Check
 							Coreference</label>
@@ -179,6 +180,7 @@
 					<button type="submit" class="btn btn-primary" id="Process" name=""
 						value="Process">Parse</button>
 				</form>
+				
 				<div id="information" class="alert alert-danger" role="alert"
 					style="display: none">
 					<strong>Error!</strong> Please enter a valid sentence
@@ -203,22 +205,25 @@
 						id="trigger-overlay" title="fullscreen">Fullscreen</button>
 					<svg class="main-svg1" id="svg-canvas1"></svg>
 				</div>
-				<!-- <div><h3>JSON Format
-					<button class="btn btn-default" id="expand_btn" type="submit">Expand</button></h3>
-				</div> -->
-				<!-- <div>
-					<h3>JSON Format	<button class="btn btn-default" id="json_expand_btn" type="submit">Expand</button></h3>
-					<h3>QASRL Format	<button class="btn btn-default" id="vqa_expand_btn" type="submit">Expand</button></h3>
-					<textarea class="collapse" id="json_output" rows="19" cols="60" disabled="disabled"></textarea>
-				</div> -->
-				<div class="input-group">
-				    <h3>JSON Format	<button class="btn btn-default" id="json_expand_btn" type="submit">Expand</button></h3>
-					<textarea class="collapse" id="json_output" disabled="disabled" rows="19" cols="60" placeholder="NULL" style="overflow:auto;resize:none"></textarea>
-				    <span class="input-group-addon"></span>
-				    <h3>QASRL Format	<button class="btn btn-default" id="vqa_expand_btn" type="submit">Expand</button></h3>
-					<textarea class="collapse" id="vqa_output" disabled="disabled" rows="19" cols="60" placeholder="NULL" style="overflow:auto;resize:none"></textarea>
+			
+				<div style="width: 50%; float:left;"><!-- class="col-md-5"> -->
+					<div class="form-group">
+					    <label>JSON Format</label>
+					    <button class="btn btn-default" id="json_expand_btn" type="submit">Expand</button>
+					    <textarea class="collapse" id="json_output" disabled="disabled" rows="19" cols="40" placeholder="NULL" style="overflow:auto;resize:none"></textarea>
+					</div>
 				</div>
-				<!-- rows="19" cols="60" -->
+				<div style="width: 50%; float:right;"><!-- class="col-md-4"> -->
+					<div class="form-group">
+					    <label>QASRL Format</label>
+					    <button class="btn btn-default" id="vqa_expand_btn" type="submit">Expand</button>
+					    <textarea class="collapse" id="vqa_output" disabled="disabled" rows="19" cols="40" placeholder="NULL" style="overflow:auto;resize:none"></textarea>
+					</div>
+				</div>
+				<br>
+				<br>
+				<br>
+				<br>
 			</div>
 		</div>
 	</div>
@@ -341,7 +346,18 @@
 					
 					var vqaOutput = allData.vqa_data;
 					vqaOut = JSON.stringify(vqaOutput, undefined, 4);
-					$('#vqa_output').val(vqaOut);
+					//$('#vqa_output').val(vqaOut);
+					
+					var qasrl = "";
+					var i;
+					for(i=0;i<vqaOutput.length;i++){
+						qasrl += "Verb: " + vqaOutput[i].verb + "\n";
+						var qa = vqaOutput[i].qas;
+						qasrl += "Question Answers:\n" + JSON.stringify(qa, undefined, 4) + "\n\n";
+						
+					}
+					
+					$('#vqa_output').val(qasrl);
 					
 					var dataParsed = allData.parser_output;
 					//alert(dataParsed);

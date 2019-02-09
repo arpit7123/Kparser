@@ -9,7 +9,7 @@ import module.graph.helper.NodePassedToViewer;
 public class Graph2Qasrl {
 	
 	
-	public ArrayList<VerbQA> getQASRLOutput(ArrayList<NodePassedToViewer> listOfGraphs){
+	public ArrayList<VerbQA> getQASRLOutput(ArrayList<NodePassedToViewer> listOfGraphs) throws Exception{
 		ArrayList<VerbQA> result = new ArrayList<VerbQA>();
 		
 		for(NodePassedToViewer npv : listOfGraphs){
@@ -21,26 +21,33 @@ public class Graph2Qasrl {
 		return result;
 	}
 
-	private void traverseGraph(Node graphNode, ArrayList<VerbQA> listOfVerbQAs){
+	private void traverseGraph(Node graphNode, ArrayList<VerbQA> listOfVerbQAs) throws Exception{
 		ArrayList<Node> children = graphNode.getChildren();
 		ArrayList<String> edges = graphNode.getEdgeList();
 		if(graphNode.isAnEvent()){
 			String verb = graphNode.getValue();
 			verb = verb.substring(0, verb.lastIndexOf("-"));
+			String verbLemma = graphNode.getLemma();
 			VerbQA vqa = new VerbQA();
 			vqa.setVerb(verb);
 			HashMap<String,String> qaMap = new HashMap<String,String>();
 			
 			for(int i=0;i<edges.size();++i){
 				String childVal = children.get(i).getValue();
-				if(childVal.matches("(.*)(-)([0-9]{1,7})")){
-					childVal = childVal.substring(0, childVal.lastIndexOf("-"));
+				if(childVal!=null){
+					if(childVal.matches("(.*)(-)([0-9]{1,7})")){
+						childVal = childVal.substring(0, childVal.lastIndexOf("-"));
+					}
 				}
 				if(edges.get(i).equalsIgnoreCase("agent")){
 					String otherPart = getOtherPart(i,children);
 					String pref = null;
-					if(children.get(i).getSuperClass().equalsIgnoreCase("person")){
-						pref = "Who";
+					if(children.get(i).getSuperClass()!=null){
+						if(children.get(i).getSuperClass().equalsIgnoreCase("person")){
+							pref = "Who";
+						}else{
+							pref = "What";
+						}
 					}else{
 						pref = "What";
 					}
@@ -55,8 +62,12 @@ public class Graph2Qasrl {
 					
 					String otherPart = getOtherPart(i,children);
 					String pref = null;
+					if(children.get(i).getSuperClass()!=null){
 					if(children.get(i).getSuperClass().equalsIgnoreCase("person")){
 						pref = "Who";
+					}else{
+						pref = "What";
+					}
 					}else{
 						pref = "What";
 					}
@@ -67,7 +78,11 @@ public class Graph2Qasrl {
 						pref += " does";
 					}
 					
-					String ques = pref + " " + otherPart + " " + verb +"?";
+					String v = verb;
+					if(verbLemma!=null){
+						v = verbLemma;
+					}
+					String ques = pref + " " + otherPart + " " + v +"?";
 					String ans = childVal;
 					qaMap.put(ques, ans);
 				}
@@ -84,7 +99,11 @@ public class Graph2Qasrl {
 						pref += " does";
 					}
 					
-					String ques = pref + " " + otherPart + " " + verb +"?";
+					String v = verb;
+					if(verbLemma!=null){
+						v = verbLemma;
+					}
+					String ques = pref + " " + otherPart + " " + v +"?";
 					String ans = childVal;
 					qaMap.put(ques, ans);
 				}
@@ -101,7 +120,11 @@ public class Graph2Qasrl {
 						pref += " does";
 					}
 					
-					String ques = pref + " " + otherPart + " " + verb +"?";
+					String v = verb;
+					if(verbLemma!=null){
+						v = verbLemma;
+					}
+					String ques = pref + " " + otherPart + " " + v +"?";
 					String ans = childVal;
 					qaMap.put(ques, ans);
 				}
@@ -121,7 +144,11 @@ public class Graph2Qasrl {
 						pref += " does";
 					}
 					
-					String ques = pref + " " + otherPart + " " + verb +"?";
+					String v = verb;
+					if(verbLemma!=null){
+						v = verbLemma;
+					}
+					String ques = pref + " " + otherPart + " " + v +"?";
 					String ans = childVal;
 					qaMap.put(ques, ans);
 				}
@@ -142,10 +169,14 @@ public class Graph2Qasrl {
 			if(j!=i){
 				Node child = children.get(j);
 				if(child.isAnEntity()){
-					if(child.getSuperClass().equalsIgnoreCase("person")){
-						result = "someone";
-					}else if(child.getSuperClass().equalsIgnoreCase("location")){
-						result = "somewhere";
+					if(child.getSuperClass()!=null){
+						if(child.getSuperClass().equalsIgnoreCase("person")){
+							result = "someone";
+						}else if(child.getSuperClass().equalsIgnoreCase("location")){
+							result = "somewhere";
+						}else{
+							result = "something";
+						}
 					}else{
 						result = "something";
 					}

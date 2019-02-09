@@ -355,7 +355,7 @@ public class MakeGraph {
 		return this.stg;
 	}
 	
-	public ArrayList<VerbQA> graphToQasrl(ArrayList<NodePassedToViewer> listOfGraphs){
+	public ArrayList<VerbQA> graphToQasrl(ArrayList<NodePassedToViewer> listOfGraphs) throws Exception{
 		return this.g2qasrl.getQASRLOutput(listOfGraphs);
 	}
 }
