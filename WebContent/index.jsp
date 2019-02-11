@@ -47,6 +47,7 @@
 				<ul class="nav navbar-nav" id="navigation">
 					<li><a href="/kparser/about.jsp" title="About Knowledge Parser">About</a></li>
 					<!-- <li><a href="/kparser/api.jsp" title="API for Knowledge Parser">API</a></li> -->
+					<li><a href="https://github.com/arpit7123/K-Parser-JAR" title="K-Parser JAR">K-Parser JAR</a></li>
 					<li><a href="https://github.com/arpit7123/Kparser" title="Knowledge Parser Github Link">GitHub Code Repository</a></li>
 					<li><a href="https://arpit7123.github.io/" title="Contact Information">Contact Information</a></li>
 				</ul>
