@@ -25,8 +25,9 @@ public class Configurations {
 			path = Configurations.class.getProtectionDomain().getCodeSource().getLocation().toURI().getPath();
 			path = path.substring(0,path.lastIndexOf("/")+1) + "resources/";
 			configFile = path + "config.properties";
+			System.out.println("CONFIG FILE: "+configFile);
 		}catch(Exception e){
-			System.err.println("ERROR: Could not load the articles file !!!");
+			System.err.println("ERROR: Could not load the configurations file !!!");
 		}	
 		
 		props = new Properties();

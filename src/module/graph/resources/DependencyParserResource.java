@@ -312,6 +312,7 @@ public class DependencyParserResource implements IResource {
 //		sent = "Steph curry fooled the entire pelicans defense to get draymond green a wide open three";
 		sent = "John gave $20 to Tom.";
 		sent = "John gave dollars_20 to Tom .";
+		sent = "The boy wants to visit New York City.";
 		lpr.extractDependencies(sent, false, 0);
 
 		for(String s : lpr.posMap.keySet()){

@@ -128,9 +128,9 @@ public class PDTBResource {
 			return events;
 		}
 		
-		private ArrayList<String> getRelation(String connective){
-			return resHandler.getConjunctionLabel(connective);
-		}
+//		private ArrayList<String> getRelation(String connective){
+//			return resHandler.getConjunctionLabel(connective);
+//		}
 		
 		private ArrayList<String> getRelation(String connective, String arg1, String arg2){
 			return resHandler.getConjunctionLabel(connective,arg1,arg2);
@@ -146,7 +146,7 @@ public class PDTBResource {
 				
 				String[] args = text.split("\\|");
 //				Explicit|||15..22||because||0|because|||Contingency.Cause|||||||||||0..14|0|John loves Mia||||||||23..36|0|she loves men|||||||||||||
-				String type = args[0];
+//				String type = args[0];
 				String connIndx = args[3];
 //				String connIndx = args[1];
 //				String conn = args[2];

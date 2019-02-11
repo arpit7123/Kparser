@@ -37,43 +37,64 @@ import edu.stanford.nlp.ling.CoreLabel;
  */
 public class NamedEntityTagger {
 
-	public static String NAMED_MULTI_WORD_SEPARATOR = "_";
-	public static final int CLASS_3 = 3;
-	public static final int CLASS_7 = 7;
-	public static final int CLASS_4 = 4;
+	public String NAMED_MULTI_WORD_SEPARATOR = "_";
+	public final int CLASS_3 = 3;
+	public final int CLASS_7 = 7;
+	public final int CLASS_4 = 4;
 	
-	private static AbstractSequenceClassifier<CoreLabel> threeClassClassifier;
-	private static AbstractSequenceClassifier<CoreLabel> sevenClassClassifier;
+	private AbstractSequenceClassifier<CoreLabel> threeClassClassifier;
+	private AbstractSequenceClassifier<CoreLabel> sevenClassClassifier;
 	
 	private HashMap<String, String> stringToNamedEntityMap;
 	private String modifiedSentence;
 	
+	private static NamedEntityTagger netInstance = null;
+	
 	static {
+		netInstance = new NamedEntityTagger();
+	}
+
+	/**
+	 * This is a private constructor.
+	 */
+	private NamedEntityTagger(){
 		try {
 			String classifierFile = Configurations.getProperty("threeClassNEClassifier");
 			if(classifierFile.startsWith("./")){
 				classifierFile = Configurations.getCWD() + classifierFile.substring(2);
 			}
+			System.out.println("CLASSIFIER 3: " + classifierFile);
 			threeClassClassifier = CRFClassifier.getClassifier(new File(classifierFile));
+			
+			System.out.println("CLASSIFIER mod: " + threeClassClassifier);
 			
 			classifierFile = Configurations.getProperty("sevenClassNEClassifier");
 			if(classifierFile.startsWith("./")){
 				classifierFile = Configurations.getCWD() + classifierFile.substring(2);
 			}
+			System.out.println("CLASSIFIER 7: " + classifierFile);
 			sevenClassClassifier = CRFClassifier.getClassifier(new File(classifierFile));
+			System.out.println("CLASSIFIER mod: " + sevenClassClassifier);
 				
 		} catch (ClassCastException | ClassNotFoundException | IOException e) {
 			System.out.println("Error in reading NE classifiers!");
 		}
 	}
-	
-	
-	public NamedEntityTagger(HashMap<String, String> stringToNamedEntityMap,
-			String modifiedSentence) {
-		super();
-		this.stringToNamedEntityMap = stringToNamedEntityMap;
-		this.modifiedSentence = modifiedSentence;
+
+	/**
+	 * This is a static method to get the instance of EventRelationsExtractor class.
+	 * @return eventRelationsInstance, an instance of EventRelationsExtractor class.
+	 */
+	public static NamedEntityTagger getInstance() {
+		return netInstance;
 	}
+	
+//	public NamedEntityTagger(HashMap<String, String> stringToNamedEntityMap,
+//			String modifiedSentence) {
+//		super();
+//		this.stringToNamedEntityMap = stringToNamedEntityMap;
+//		this.modifiedSentence = modifiedSentence;
+//	}
 
 	
 	public HashMap<String, String> getStringToNamedEntityMap() {
@@ -86,7 +107,7 @@ public class NamedEntityTagger {
 	}
 
 
-	public static NEObject tagNamedEntities(String sentence) {
+	public NEObject tagNamedEntities(String sentence) {
 		char[] tempSentenceA = threeClassClassifier.classifyWithInlineXML(sentence)
 				.toCharArray();
 		char[] tempSentenceB = sevenClassClassifier.classifyWithInlineXML(sentence)
@@ -98,7 +119,7 @@ public class NamedEntityTagger {
 		return mergeNEObjs(sentence,neObj1,neObj2);
 	}
 	
-	private static NEObject mergeNEObjs(String text, NEObject neObj1, NEObject neObj2){
+	private NEObject mergeNEObjs(String text, NEObject neObj1, NEObject neObj2){
 		String modifiedText = text;
 		HashMap<String,String> neMap = Maps.newHashMap();
 		
@@ -127,7 +148,7 @@ public class NamedEntityTagger {
 		return new NEObject(neMap,modifiedText);
 	}
 	
-	private static NEObject  processTaggedOutput(char[] tempSentenceA, int model){
+	private NEObject  processTaggedOutput(char[] tempSentenceA, int model){
 		StringBuffer newSentence = new StringBuffer();
 		HashMap<String, String> stringToNamedEntityMap = new HashMap<String, String>();
 		for (int i = 0; i < tempSentenceA.length;) {
@@ -201,7 +222,7 @@ public class NamedEntityTagger {
 	}
 
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		String text = "Rajat Raina goes to school on Wednesday at 1630PST";
 		text = "John took twenty-five percent of the stakes.";
 		text = "Mr Moss said he refused to do so because he feared the journey would compromise the integrity of the fragile pieces .";

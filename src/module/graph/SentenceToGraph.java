@@ -92,6 +92,7 @@ public class SentenceToGraph implements SentenceToGraphInterface{
 	private PDTBResource pdtbInstance = null;
 	private PreprocessQuestions preprocessQues = null;
 	private Preprocessor preprocessorInstance = null;
+	private NamedEntityTagger neTaggerInstance = null;
 
 	private boolean backGroundFlag;
 	private boolean wordSenseFlag;
@@ -119,6 +120,7 @@ public class SentenceToGraph implements SentenceToGraphInterface{
 		preprocessQues = PreprocessQuestions.getInstance();
 		pdtbInstance = PDTBResource.getInstance();
 		evRelExt = EventRelationsExtractor.getInstance();
+		neTaggerInstance = NamedEntityTagger.getInstance();
 	}
 
 	/**
@@ -988,7 +990,7 @@ public class SentenceToGraph implements SentenceToGraphInterface{
 	 */
 	private String tagNamedEntities(String sentence) {
 		stringToNamedEntityMap.clear();
-		NEObject namedEntityTagger = NamedEntityTagger.tagNamedEntities(sentence);
+		NEObject namedEntityTagger = neTaggerInstance.tagNamedEntities(sentence);
 
 		// sentence will now have New York City as New_York_City
 		sentence = namedEntityTagger.getModifiedText();
@@ -1396,7 +1398,7 @@ public class SentenceToGraph implements SentenceToGraphInterface{
 		String  entityType= stringToNamedEntityMap.get(baseWord);
 		if(entityType != null) {
 			entityType = entityType.toLowerCase();
-			superclass = entityType.replace(NamedEntityTagger.NAMED_MULTI_WORD_SEPARATOR," ");
+			superclass = entityType.replace(neTaggerInstance.NAMED_MULTI_WORD_SEPARATOR," ");
 			posMap.put(entityType.toLowerCase(), posMap.get(baseWord));
 		}else if(lexicalFileName != null){
 			if(lexicalFileName.contains(".")){

@@ -41,13 +41,14 @@
 						class="icon-bar"></span>
 				</button>
 				<a href="http://www.kparser.org" class="navbar-brand title">Knowledge
-					Parser</a>
+					Parser (K-Parser)</a>
 			</div>
 			<nav class="collapse navbar-collapse" role="navigation">
 				<ul class="nav navbar-nav" id="navigation">
 					<li><a href="/kparser/about.jsp" title="About Knowledge Parser">About</a></li>
-					<li><a href="/kparser/api.jsp" title="API for Knowledge Parser">API</a></li>
-					<li><a href="#" title="Contact Us">Contact</a></li>
+					<!-- <li><a href="/kparser/api.jsp" title="API for Knowledge Parser">API</a></li> -->
+					<li><a href="https://github.com/arpit7123/Kparser" title="Knowledge Parser Github Link">GitHub Code Repository</a></li>
+					<li><a href="https://arpit7123.github.io/" title="Contact Information">Contact Information</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -67,30 +68,19 @@
 							<li><a class="deselected">Every boxer walks.</a></li>
 							<li><a class="deselected">Some boxer walks.</a></li>
 							<li><a class="deselected">John loves his wife.</a></li>
-							<li><a class="deselected">The boy wants to visit New
-									York City.</a></li>
-							<li><a class="deselected">The accident happened as the
-									night was falling.</a></li>
+							<li><a class="deselected">The boy wants to visit New York City.</a></li>
+							<li><a class="deselected">The accident happened as the night was falling.</a></li>
 							<li><a class="deselected">Tom killed the boy.</a></li>
-							<li><a class="deselected">If John had not loved every
-									cat, he would have loved a dog.</a></li>
-							<li><a class="deselected">Fish ate the worm because it
-									was tasty.</a></li>
-							<li><a class="deselected">The older students were
-									bullying the younger students so we rescued them.</a></li>
+							<li><a class="deselected">If John had not loved every cat, he would have loved a dog.</a></li>
+							<li><a class="deselected">Fish ate the worm because it was tasty.</a></li>
+							<li><a class="deselected">The older students were bullying the younger students so we rescued them.</a></li>
 							<li><a class="deselected">My dog likes eating sausage.</a></li>
-							<li><a class="deselected">Gavin ran away after he killed
-									Tom.</a></li>
-							<li><a class="deselected">My dog also likes eating
-									sausage.</a></li>
-							<li><a class="deselected">He was shot by a professional
-									killer.</a></li>
-							<li><a class="deselected">She sat opposite him and
-									looked into his eyes.</a></li>
-							<li><a class="deselected">He fell asleep during the
-									meeting.</a></li>
-							<li><a class="deselected">The river runs beside our
-									house.</a></li>
+							<li><a class="deselected">Gavin ran away after he killed Tom.</a></li>
+							<li><a class="deselected">My dog also likes eating sausage.</a></li>
+							<li><a class="deselected">He was shot by a professional killer.</a></li>
+							<li><a class="deselected">She sat opposite him and looked into his eyes.</a></li>
+							<li><a class="deselected">He fell asleep during the meeting.</a></li>
+							<li><a class="deselected">The river runs beside our house.</a></li>
 							<li><a class="deselected">She is like her sister.</a></li>
 							<!--<li><a href="#sec16">The mouse ran under the chair.</a></li>-->
 						</ul>
@@ -106,22 +96,15 @@
 								<li><a class="deselected">Mary walked.</a></li>
 								<li><a class="deselected">Mary walked to the store.</a></li>
 								<li><a class="deselected">Tim ran two miles.</a></li>
-								<li><a class="deselected">John arrived at his
-										destination.</a></li>
+								<li><a class="deselected">John arrived at his destination.</a></li>
 								<li><a class="deselected">John loves Mia.</a></li>
 								<li><a class="deselected">I knew about the incident.</a></li>
-								<li><a class="deselected">He fell asleep during the
-										meeting.</a></li>
-								<li><a class="deselected">The knife was used to kill
-										the dog.</a></li>
-								<li><a class="deselected">George was bullying Tim so we
-										rescued him.</a></li>
-								<li><a class="deselected">John loves Mia, and Mia hates
-										John.</a></li>
-								<li><a class="deselected">Tom killed John before Tom
-										and Jane ran away.</a></li>
-								<li><a class="deselected">She sat opposite him and
-										looked into his eyes.</a></li>
+								<li><a class="deselected">He fell asleep during the meeting.</a></li>
+								<li><a class="deselected">The knife was used to kill the dog.</a></li>
+								<li><a class="deselected">George was bullying Tim so we rescued him.</a></li>
+								<li><a class="deselected">John loves Mia, and Mia hates John.</a></li>
+								<li><a class="deselected">Tom killed John before Tom and Jane ran away.</a></li>
+								<li><a class="deselected">She sat opposite him and looked into his eyes.</a></li>
 							</ul>
 						</div>
 					</div>
