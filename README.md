@@ -17,7 +17,7 @@ This repository is a Java Dynamic Web Project. Following requirements must be sa
 2. The configuration file for the project contains paths to the other resources. 
    The config file is present under "./build/classes/resources/" directory
    
-3. Other requires resources (which are mentioned in the configuration file) are available to download from:
+3. Other required resources (which are mentioned in the configuration file) are available to download from:
    https://goo.gl/pZEdxP
 
 4. An local web server (such as apache tomcat) must be setup to execute the project as a web application.
@@ -28,4 +28,4 @@ http://bioai8core.fulton.asu.edu/kparser_java_docs/
 
 
 ## Contact:
-In case of any issues or questions, please feel free to contact me (Arpit Sharma) at asharm73@asu.edu
+In case of any issues or questions, please feel free to contact me (Arpit Sharma) at arpit7123@gmail.com
