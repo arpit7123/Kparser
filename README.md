@@ -22,9 +22,9 @@ This repository is a Java Dynamic Web Project. Following requirements must be sa
 
 4. An local web server (such as apache tomcat) must be setup to execute the project as a web application.
 
-## Code Documentation:
+<!--## Code Documentation:
 The documentation for the code is available at:
-http://bioai8core.fulton.asu.edu/kparser_java_docs/
+http://bioai8core.fulton.asu.edu/kparser_java_docs/-->
 
 
 ## Contact:
