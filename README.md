@@ -3,7 +3,7 @@
 Knowledge Parser or K-Parser or Kparser is a semantic parser that translates any English sentence into a directed acyclic semantic graph. The nodes in the graph represent the actual words in the input text and the conceptual classes of those words. 
 The edges represent the dependency between different nodes and the edge labels in the graph represent the semantic relations between the nodes.
 
-An online demonstration of the K-Parser system is available at www.kparser.org
+<!-- An online demonstration of the K-Parser system is available at www.kparser.org -->
 
 This repository contains the code for K-Parser. It can be cloned/downloaded and imported as an external project in a JAVA IDE.
 The IDE used to write and compile the project is Eclipse.
